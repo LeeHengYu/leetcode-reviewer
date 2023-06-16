@@ -54,7 +54,7 @@ const TableComponent = () => {
           </Tr>
         </Thead>
         <Tbody>
-          {sortData(tableData).map((item, index) => (
+          {sortData(tableData)?.map((item, index) => (
             <Tr key={index}>
               <Td color="blue.500">
                 <Link href={item.link} target="_blank">

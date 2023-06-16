@@ -10,7 +10,8 @@ function App() {
         templateAreas={`"nav nav" "aside main"`}
         templateColumns={"180px 1fr"}
         width="100%"
-        height="100%"
+        height="100vh"
+        alignContent="flex-start"
       >
         <GridItem area="nav" padding={3}>
           <NavBar />
