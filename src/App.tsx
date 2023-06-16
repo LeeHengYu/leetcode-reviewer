@@ -5,11 +5,12 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <Box width="1425px">
+    <Box width="100vw">
       <Grid
         templateAreas={`"nav nav" "aside main"`}
         templateColumns={"180px 1fr"}
         width="100%"
+        height="100%"
       >
         <GridItem area="nav" padding={3}>
           <NavBar />

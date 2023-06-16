@@ -5,7 +5,7 @@ const tableData = [
       difficulty: "Medium",
       category: "Dynamic Programming",
       solution: "coin-change.py",
-      dailyChallenge: "2023 Jun 15",
+      dailyChallenge: "2023-06-15",
     },
     {
       question: "Question 2",
