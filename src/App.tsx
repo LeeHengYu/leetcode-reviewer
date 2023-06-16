@@ -1,12 +1,13 @@
 import { Box, Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
+import TableComponent from "./components/TableComponent";
 
 function App() {
   return (
     <Box width="100vw">
       <Grid
         templateAreas={`"nav nav" "aside main"`}
-        templateColumns={"200px 1fr"}
+        templateColumns={"180px 1fr"}
         width="100%"
       >
         <GridItem area="nav">
@@ -15,8 +16,8 @@ function App() {
         <GridItem area="aside" bg="gold">
           Aside
         </GridItem>
-        <GridItem area="main" bg="dodgerblue">
-          Main
+        <GridItem area="main">
+          <TableComponent />
         </GridItem>
       </Grid>
     </Box>
