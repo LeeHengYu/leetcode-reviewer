@@ -24,13 +24,8 @@ const Sidebar = () => {
         Other Links
       </Heading>
       {links.map((data) => (
-        <Box margin={2}>
-          <Icon
-            key={data.text}
-            as={iconMap[data.text]}
-            color="gray.500"
-            marginRight={1}
-          />
+        <Box margin={2} key={data.text}>
+          <Icon as={iconMap[data.text]} color="gray.500" marginRight={1} />
           <Link href={data.url} target="_blank">
             {data.text}
           </Link>

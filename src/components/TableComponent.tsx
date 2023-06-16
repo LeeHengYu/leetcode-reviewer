@@ -12,6 +12,7 @@ import {
   Table,
   Tbody,
   Td,
+  Text,
   Th,
   Thead,
   Tr,
@@ -19,11 +20,20 @@ import {
 import { useState } from "react";
 import tableData from "../data/tablaData";
 import sortData from "../hook/sortData";
+import { useScripts } from "../hook/useScripts";
 import Difficulty from "./Difficulty";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const { data, error } = useScripts();
+  if (error) {
+    return <Text>{error.message}</Text>;
+  }
+  const rawFile = data?.find((item) => item.name === selectedSolution);
+  const rawFilePath = rawFile?.download_url; //when click on solution, this is no longer undefined
+  // console.log(data, rawFile, rawFilePath);
 
   const handleSolutionClick = (solution: string) => {
     setSelectedSolution(solution);
