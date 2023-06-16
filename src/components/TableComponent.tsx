@@ -18,6 +18,7 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import tableData from "../data/tablaData";
+import Difficulty from "./Difficulty";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
@@ -59,7 +60,9 @@ const TableComponent = () => {
                   {item.question}
                 </Link>
               </Td>
-              <Td>{item.difficulty}</Td>
+              <Td>
+                <Difficulty diff={item.difficulty} />
+              </Td>
               <Td>{item.category}</Td>
               <Td>
                 <Link

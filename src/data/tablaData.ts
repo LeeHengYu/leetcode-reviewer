@@ -30,7 +30,7 @@ const tableData = [
     },
     {
       question: "Question 3",
-      difficulty: "Hard",
+      difficulty: "Easy",
       category: "Category 3",
       solution: "Solution 3",
       dailyChallenge: "", // Empty date
