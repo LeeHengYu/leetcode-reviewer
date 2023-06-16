@@ -1,11 +1,11 @@
 import { Box, Heading, Icon, Link, VStack } from "@chakra-ui/react";
 import { IconType } from "react-icons";
 import {
+  AiOutlineInstagram,
   AiOutlineLink,
   AiOutlineMail,
-  AiOutlineInstagram,
 } from "react-icons/ai";
-import { BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { FaPodcast } from "react-icons/fa";
 import links from "../data/links";
 

@@ -18,6 +18,7 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import tableData from "../data/tablaData";
+import sortData from "../hook/sortData";
 import Difficulty from "./Difficulty";
 
 const TableComponent = () => {
@@ -53,7 +54,7 @@ const TableComponent = () => {
           </Tr>
         </Thead>
         <Tbody>
-          {tableData.map((item, index) => (
+          {sortData(tableData).map((item, index) => (
             <Tr key={index}>
               <Td color="blue.500">
                 <Link href={item.link} target="_blank">
