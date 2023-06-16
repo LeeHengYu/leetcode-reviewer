@@ -4,7 +4,7 @@ import SearchInput from "./SearchInput";
 
 const NavBar = () => {
   return (
-    <HStack justifyContent="space-between">
+    <HStack>
       <Text width="100px" paddingLeft={3}>
         placeholder
       </Text>
