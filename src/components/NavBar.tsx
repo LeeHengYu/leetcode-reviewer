@@ -1,15 +1,16 @@
-import { Box, HStack, Text } from "@chakra-ui/react";
+import { Box, HStack, Img, Link } from "@chakra-ui/react";
+import Microphone from "../assets/icon_mic2.svg";
 import ColorModeSwitch from "./ColorModeSwitch";
 import SearchInput from "./SearchInput";
 
 const NavBar = () => {
   return (
     <HStack>
-      <Text width="80px" paddingLeft={3}>
-        place
-      </Text>
+      <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+        <Img src={Microphone} boxSize="30px" alt="Microphone" color="white" />
+      </Link>
       <SearchInput />
-      <Box whiteSpace="nowrap"></Box>
+      <Box></Box>
       <ColorModeSwitch />
     </HStack>
   );
