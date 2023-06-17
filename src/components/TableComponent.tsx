@@ -80,7 +80,7 @@ const TableComponent = () => {
         </Tbody>
       </Table>
 
-      <Modal isOpen={isModalOpen} onClose={handleCloseModal} size="xl">
+      <Modal isOpen={isModalOpen} onClose={handleCloseModal} size="3xl">
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>Solution: {selectedSolution}</ModalHeader>
@@ -95,7 +95,7 @@ const TableComponent = () => {
             >
               <ScriptLoader selectedSolution={selectedSolution} />
             </Code>
-            <Button>Copy Script Contents</Button>
+            {/* <Button>Copy Script Contents</Button> */}
           </ModalBody>
         </ModalContent>
       </Modal>
