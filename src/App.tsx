@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Show } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import Sidebar from "./components/Sidebar";
 import TableComponent from "./components/TableComponent";
@@ -7,18 +7,18 @@ function App() {
   return (
     <Box width="100vw">
       <Grid
-        templateAreas={`"nav nav" "aside main"`}
-        templateColumns={"120px 1fr"}
-        width="100%"
-        height="100vh"
+        templateAreas={{ base: `"nav" "main"`, lg: `"nav nav" "aside main"` }}
+        templateColumns={{ base: "100vw", lg: "120px 1fr" }}
         alignContent="flex-start"
       >
         <GridItem area="nav" padding={3}>
           <NavBar />
         </GridItem>
-        <GridItem area="aside">
-          <Sidebar />
-        </GridItem>
+        <Show above="lg">
+          <GridItem area="aside">
+            <Sidebar />
+          </GridItem>
+        </Show>
         <GridItem area="main">
           <TableComponent />
         </GridItem>
