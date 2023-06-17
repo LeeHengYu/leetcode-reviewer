@@ -77,7 +77,7 @@ const TableComponent = () => {
               <Td>{item.category}</Td>
               <Td>
                 <Link
-                  color="blue.500"
+                  color="blue.300"
                   onClick={() => handleSolutionClick(item.solution)}
                 >
                   Solution
