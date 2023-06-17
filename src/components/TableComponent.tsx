@@ -98,7 +98,7 @@ const TableComponent = () => {
               <Code
                 display="block"
                 whiteSpace="pre"
-                maxHeight="80vh"
+                maxHeight="70vh"
                 overflowY="scroll"
                 mb={4}
               >
