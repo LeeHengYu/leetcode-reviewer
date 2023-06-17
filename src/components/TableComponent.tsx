@@ -16,15 +16,19 @@ import {
   Thead,
   Tr,
 } from "@chakra-ui/react";
-import { useState } from "react";
+import { useReducer, useState } from "react";
 import tableData from "../data/tablaData";
 import sortData from "../hook/sortData";
 import Difficulty from "./Difficulty";
 import ScriptLoader from "./ScriptLoader";
+import scriptReducer from "../reducers/scriptReducer";
+import ScriptContext from "../contexts/scriptContexts";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const [script, dispatch] = useReducer(scriptReducer, "");
 
   const handleSolutionClick = (solution: string) => {
     setSelectedSolution(solution);
@@ -36,11 +40,16 @@ const TableComponent = () => {
     setIsModalOpen(false);
   };
 
-  // const handleCopyClick = () => {
-  //   // Logic to copy the solution script contents
-  //   // const scriptPath = `./PythonScripts/${selectedSolution}`;
-  //   console.log(`Copied contents`);
-  // };
+  const handleCopyClick = () => {
+    navigator.clipboard
+      .writeText(script)
+      .then(() => {
+        console.log("Text copied to clipboard");
+      })
+      .catch((error) => {
+        console.error("Error copying text:", error);
+      });
+  };
 
   return (
     <Box>
@@ -79,26 +88,27 @@ const TableComponent = () => {
           ))}
         </Tbody>
       </Table>
-
-      <Modal isOpen={isModalOpen} onClose={handleCloseModal} size="3xl">
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>Solution: {selectedSolution}</ModalHeader>
-          <ModalCloseButton />
-          <ModalBody>
-            <Code
-              display="block"
-              whiteSpace="pre"
-              maxHeight="80vh"
-              overflowY="scroll"
-              mb={4}
-            >
-              <ScriptLoader selectedSolution={selectedSolution} />
-            </Code>
-            {/* <Button>Copy Script Contents</Button> */}
-          </ModalBody>
-        </ModalContent>
-      </Modal>
+      <ScriptContext.Provider value={{ script, dispatch }}>
+        <Modal isOpen={isModalOpen} onClose={handleCloseModal} size="3xl">
+          <ModalOverlay />
+          <ModalContent>
+            <ModalHeader>Solution: {selectedSolution}</ModalHeader>
+            <ModalCloseButton />
+            <ModalBody>
+              <Code
+                display="block"
+                whiteSpace="pre"
+                maxHeight="80vh"
+                overflowY="scroll"
+                mb={4}
+              >
+                <ScriptLoader selectedSolution={selectedSolution} />
+              </Code>
+              <Button onClick={handleCopyClick}>Copy</Button>
+            </ModalBody>
+          </ModalContent>
+        </Modal>
+      </ScriptContext.Provider>
     </Box>
   );
 };

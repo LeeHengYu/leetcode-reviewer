@@ -21,13 +21,13 @@ const Sidebar = () => {
   return (
     <VStack paddingY={2}>
       <Heading size="md" marginBottom={2}>
-        Other Links
+        Links
       </Heading>
       {links.map((data) => (
-        <Box margin={2} key={data.text}>
-          <Icon as={iconMap[data.text]} color="gray.500" marginRight={1} />
+        <Box marginLeft={2} marginY={2} key={data.text} boxSize={7}>
           <Link href={data.url} target="_blank">
-            {data.text}
+            <Icon as={iconMap[data.text]} color="gray.500" />
+            {/* {data.text} */}
           </Link>
         </Box>
       ))}
