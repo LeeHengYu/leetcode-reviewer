@@ -12,7 +12,6 @@ import {
   Table,
   Tbody,
   Td,
-  Text,
   Th,
   Thead,
   Tr,
@@ -20,20 +19,12 @@ import {
 import { useState } from "react";
 import tableData from "../data/tablaData";
 import sortData from "../hook/sortData";
-import { useScripts } from "../hook/useScripts";
 import Difficulty from "./Difficulty";
+import ScriptLoader from "./ScriptLoader";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const { data, error } = useScripts();
-  if (error) {
-    return <Text>{error.message}</Text>;
-  }
-  const rawFile = data?.find((item) => item.name === selectedSolution);
-  const rawFilePath = rawFile?.download_url; //when click on solution, this is no longer undefined
-  // console.log(data, rawFile, rawFilePath);
 
   const handleSolutionClick = (solution: string) => {
     setSelectedSolution(solution);
@@ -98,11 +89,11 @@ const TableComponent = () => {
             <Code
               display="block"
               whiteSpace="pre"
-              maxHeight="60vh"
+              maxHeight="80vh"
               overflowY="scroll"
               mb={4}
             >
-              Sample Code... Sample Code... Sample Code... Sample Code...
+              <ScriptLoader selectedSolution={selectedSolution} />
             </Code>
             <Button>Copy Script Contents</Button>
           </ModalBody>
@@ -113,6 +104,3 @@ const TableComponent = () => {
 };
 
 export default TableComponent;
-
-// problem: fetch code from GitHub API
-// Deal with copy event
