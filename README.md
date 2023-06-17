@@ -12,3 +12,6 @@ Having said that, the situation is still pretty dire because exp is way more imp
 
 ## Deployment
 Still in progress...
+
+## Inspiration
+[NEETCODE](https://neetcode.io/practice) is pretty good.
