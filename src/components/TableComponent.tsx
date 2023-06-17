@@ -66,7 +66,7 @@ const TableComponent = () => {
         <Tbody>
           {sortData(tableData)?.map((item, index) => (
             <Tr key={index}>
-              <Td color="blue.500">
+              <Td color="blue.300">
                 <Link href={item.link} target="_blank">
                   {item.question}
                 </Link>
@@ -77,7 +77,7 @@ const TableComponent = () => {
               <Td>{item.category}</Td>
               <Td>
                 <Link
-                  color="blue.500"
+                  color="blue.300"
                   onClick={() => handleSolutionClick(item.solution)}
                 >
                   Solution

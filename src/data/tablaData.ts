@@ -17,12 +17,12 @@ const tableData: Question[] = [
       dailyChallenge: "2023-06-15",
     },
     {
-      question: "Question 2",
-      difficulty: "Medium",
-      link: "",
-      category: "Category 2",
-      solution: "Solution 2",
-      dailyChallenge: "", // Empty date
+      question: "Make Array Strictly Increasing",
+      difficulty: "Hard",
+      link: "https://leetcode.com/problems/make-array-strictly-increasing/",
+      category: "Dynamic Programming",
+      solution: "make-array-strictly-increasing.py",
+      dailyChallenge: "2023-06-17", // Empty date
     },
     {
       question: "Question 3",
