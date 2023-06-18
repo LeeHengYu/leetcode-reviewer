@@ -24,7 +24,7 @@ import Difficulty from "./Difficulty";
 import ScriptLoader from "./ScriptLoader";
 import scriptReducer from "../reducers/scriptReducer";
 import ScriptContext from "../contexts/scriptContexts";
-import useQuestionFilterStore from "../store";
+import useQuestionFilterStore from "../stores/QuestionFilterStore";
 import DifficultySelector from "./DifficultySelector";
 import CategorySelector from "./CategorySelector";
 

@@ -1,6 +1,6 @@
 import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
 import { BsChevronDown } from "react-icons/bs";
-import useQuestionFilterStore from "../store";
+import useQuestionFilterStore from "../stores/QuestionFilterStore";
 
 const DifficultySelector = () => {
   const setDifficulty = useQuestionFilterStore((s) => s.setDifficulty);

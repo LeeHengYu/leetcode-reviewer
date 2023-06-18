@@ -1,5 +1,5 @@
 import { Question } from "../data/tablaData"
-import { Filters } from "../store";
+import { Filters } from "../stores/QuestionFilterStore";
 
 const DataQuery = (data: Question[], query: Filters) => {
     let filteredData = data;
