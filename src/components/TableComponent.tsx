@@ -28,6 +28,8 @@ import useQuestionFilterStore from "../stores/QuestionFilterStore";
 import DifficultySelector from "./DifficultySelector";
 import CategorySelector from "./CategorySelector";
 import SortSelector from "./SortSelector";
+import useQuestionSortingStore from "../stores/QuestionSortingStore";
+import dataSorting from "../hook/dataSorting";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
@@ -36,6 +38,9 @@ const TableComponent = () => {
   const [script, dispatch] = useReducer(scriptReducer, "");
 
   const filters = useQuestionFilterStore((s) => s.filters);
+
+  const by = useQuestionSortingStore((s) => s.sortingCriteria.by);
+  const [reversed, setReversed] = useState(false);
 
   const handleSolutionClick = (solution: string) => {
     setSelectedSolution(solution);
@@ -64,6 +69,9 @@ const TableComponent = () => {
         <DifficultySelector />
         <CategorySelector />
         <SortSelector />
+        <Button onClick={() => setReversed(!reversed)} colorScheme="linkedin">
+          Reversed
+        </Button>
       </HStack>
       <Table variant="striped" size="lg" fontFamily="mono">
         <Thead>
@@ -76,28 +84,30 @@ const TableComponent = () => {
           </Tr>
         </Thead>
         <Tbody whiteSpace="nowrap">
-          {DataQuery(tableData, filters)?.map((item, index) => (
-            <Tr key={index}>
-              <Td color="blue.300" minWidth="400px">
-                <Link href={item.link} target="_blank">
-                  {item.question}
-                </Link>
-              </Td>
-              <Td>
-                <Difficulty diff={item.difficulty} />
-              </Td>
-              <Td>{item.category}</Td>
-              <Td>
-                <Link
-                  color="blue.300"
-                  onClick={() => handleSolutionClick(item.solution)}
-                >
-                  Solution
-                </Link>
-              </Td>
-              <Td>{item.dailyChallenge?.toLocaleDateString()}</Td>
-            </Tr>
-          ))}
+          {dataSorting(DataQuery(tableData, filters), reversed, by)?.map(
+            (item, index) => (
+              <Tr key={index}>
+                <Td color="blue.300" minWidth="400px">
+                  <Link href={item.link} target="_blank">
+                    {item.question}
+                  </Link>
+                </Td>
+                <Td>
+                  <Difficulty diff={item.difficulty} />
+                </Td>
+                <Td>{item.category}</Td>
+                <Td>
+                  <Link
+                    color="blue.300"
+                    onClick={() => handleSolutionClick(item.solution)}
+                  >
+                    Solution
+                  </Link>
+                </Td>
+                <Td>{item.dailyChallenge?.toLocaleDateString()}</Td>
+              </Tr>
+            )
+          )}
         </Tbody>
       </Table>
       <ScriptContext.Provider value={{ script, dispatch }}>
@@ -117,7 +127,7 @@ const TableComponent = () => {
                 <ScriptLoader selectedSolution={selectedSolution} />
               </Code>
               <Button onClick={handleCopyClick} marginBottom={2}>
-                Copy
+                Copy Content
               </Button>
             </ModalBody>
           </ModalContent>

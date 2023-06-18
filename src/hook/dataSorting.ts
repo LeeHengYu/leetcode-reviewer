@@ -1,33 +1,31 @@
 import { Question } from "../data/tablaData"
 
 const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
+    const mapping = ["Easy", "Medium", "Hard"];
     let sortedData = data;
-    if (by==="Category"){
+    if (by==="category"){
         sortedData = data.sort((a,b) => {
-            if (a.category && b.category){
-                return (a.category > b.category) ? 1 : -1;
-            }
-            else return 0;
+            //sort by category in lexical order
+            return a.category.localeCompare(b.category);
         })
     }
 
-    if (by==="Difficulty"){
-        const mapping = ["Easy", "Medium", "Hard"];
+    if (by==="difficulty"){
         sortedData = data.sort((a,b) => {
             return mapping.indexOf(a.difficulty) - mapping.indexOf(b.difficulty);
         })
     }
 
-    else {
+    else if (!by) {
         sortedData = data.sort((a,b) => {
             if (a.dailyChallenge && b.dailyChallenge){
                 return (a.dailyChallenge > b.dailyChallenge) ? 1 : -1;
             }
             else if (a.dailyChallenge){
-                return -1;
+                return 1;
             }
             else if (b.dailyChallenge){
-                return 1;
+                return -1;
             }
             else return 0
         }).reverse(); // default sort by date
