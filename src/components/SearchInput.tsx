@@ -6,7 +6,7 @@ import {
 } from "@chakra-ui/react";
 import { useContext } from "react";
 import { BsSearch } from "react-icons/bs";
-import { ImCross } from "react-icons/im";
+import { RxCross1 } from "react-icons/rx";
 import InputRefContexts from "../contexts/inputRefContexts";
 import useQuestionFilterStore from "../stores/QuestionFilterStore";
 
@@ -31,7 +31,7 @@ const SearchInput = () => {
           ref={ref}
         />
         <InputRightElement
-          children={<ImCross />}
+          children={<RxCross1 />}
           cursor="pointer"
           onClick={() => {
             if (ref.current) ref.current.value = "";
