@@ -14,6 +14,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       category: "Dynamic Programming",
       solution: "coin-change.py",
+    },
+    {
+      question: "Maximum Level Sum of a Binary Tree",
+      link: "https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/",
+      difficulty: "Medium",
+      category: "Tree",
+      solution: "maximum-level-sum-of-a-binary-tree.py",
       dailyChallenge: new Date("2023-06-15"),
     },
     {
