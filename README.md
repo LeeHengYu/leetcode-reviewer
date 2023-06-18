@@ -20,7 +20,7 @@ Todo:
 2. Routing to different pages
 3. Filter by dates
 
-## Why this repo exists??
+## Why this project exists??
 
 Because I didn't get a job for 2023 summer and the recruting season for 2024 summer internship is imminent.
 
@@ -30,7 +30,9 @@ Having said that, the situation is still pretty dire because exp is way more imp
 
 ## Deployment
 
-Still in progress...
+Deployed on Vercel
+
+[Link](leetcode-reviewer.vercel.app)
 
 ## Inspiration
 
