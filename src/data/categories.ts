@@ -1,7 +1,7 @@
 const category = [
     "Linked List",
     "Pointers",
-    "Arrays & Hasing",
+    "Arrays & Hashing",
     "Stack",
     "Binary Search",
     "Tree",
@@ -14,6 +14,7 @@ const category = [
     "Math",
     "Advanced Graph",
     "Interval",
+    "Bit Manipulation",
 ]
 
 export default category;
