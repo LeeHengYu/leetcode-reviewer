@@ -63,7 +63,7 @@ const TableComponent = () => {
             <Th>Daily Challenge</Th>
           </Tr>
         </Thead>
-        <Tbody>
+        <Tbody whiteSpace="nowrap">
           {sortData(tableData)?.map((item, index) => (
             <Tr key={index}>
               <Td color="blue.300">
@@ -83,7 +83,7 @@ const TableComponent = () => {
                   Solution
                 </Link>
               </Td>
-              <Td>{item.dailyChallenge}</Td>
+              <Td>{item.dailyChallenge?.toLocaleDateString()}</Td>
             </Tr>
           ))}
         </Tbody>

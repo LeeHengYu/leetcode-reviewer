@@ -4,7 +4,7 @@ export interface Question {
   difficulty: string
   category: string
   solution: string
-  dailyChallenge?: string
+  dailyChallenge?: Date
 }
 
 const tableData: Question[] = [
@@ -14,7 +14,7 @@ const tableData: Question[] = [
       difficulty: "Medium",
       category: "Dynamic Programming",
       solution: "coin-change.py",
-      dailyChallenge: "2023-06-15",
+      dailyChallenge: new Date("2023-06-15"),
     },
     {
       question: "Make Array Strictly Increasing",
@@ -22,40 +22,66 @@ const tableData: Question[] = [
       link: "https://leetcode.com/problems/make-array-strictly-increasing/",
       category: "Dynamic Programming",
       solution: "make-array-strictly-increasing.py",
-      dailyChallenge: "2023-06-17",
+      dailyChallenge: new Date("2023-06-17"),
     },
     {
       question: "Number of Increasing Paths in a Grid",
       link: "https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/",
       difficulty: "Hard",
       category: "Dynamic Programming",
-      dailyChallenge: "2023-06-18",
+      dailyChallenge: new Date("2023-06-18"),
       solution: "number-of-increasing-path-in-a-grid.py"
     },
     {
-      question: "Question 3",
+      question: "Number of Ways to Reorder Array to Get Same BST",
       difficulty: "Hard",
-      category: "Category 3",
-      solution: "Solution 3",
+      category: "Category 1",
+      solution: "Solution 1",
+      dailyChallenge: new Date("2023-06-16"),
     },
     {
-      question: "Question 3",
+      question: "Question dummy",
       difficulty: "Hard",
-      category: "Category 3",
-      solution: "Solution 3",
+      category: "Category 1",
+      solution: "Solution 1",
     },
     {
-      question: "Question 5",
-      difficulty: "Easy",
-      category: "Category 3",
-      solution: "Solution 3",
+      question: "Question dummy",
+      difficulty: "Hard",
+      category: "Category 1",
+      solution: "Solution 1",
     },
     {
-      question: "Question 7",
+      question: "Question dummy",
       difficulty: "Hard",
-      category: "Category 7",
-      solution: "Solution 7",
+      category: "Category 1",
+      solution: "Solution 1",
     },
+    {
+      question: "Question dummy",
+      difficulty: "Hard",
+      category: "Category 1",
+      solution: "Solution 1",
+    },
+    {
+      question: "Question dummy",
+      difficulty: "Hard",
+      category: "Category 1",
+      solution: "Solution 1",
+    },
+    {
+      question: "Question dummy",
+      difficulty: "Hard",
+      category: "Category 1",
+      solution: "Solution 1",
+    },
+    {
+      question: "Question dummy",
+      difficulty: "Hard",
+      category: "Category 1",
+      solution: "Solution 1",
+    },
+
    
   ];
 
