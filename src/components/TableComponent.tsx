@@ -2,6 +2,7 @@ import {
   Box,
   Button,
   Code,
+  HStack,
   Link,
   Modal,
   ModalBody,
@@ -25,6 +26,7 @@ import scriptReducer from "../reducers/scriptReducer";
 import ScriptContext from "../contexts/scriptContexts";
 import useQuestionFilterStore from "../store";
 import DifficultySelector from "./DifficultySelector";
+import CategorySelector from "./CategorySelector";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
@@ -57,7 +59,10 @@ const TableComponent = () => {
 
   return (
     <Box>
-      <DifficultySelector />
+      <HStack paddingLeft={1} spacing={3}>
+        <DifficultySelector />
+        <CategorySelector />
+      </HStack>
       <Table variant="striped" size="lg" fontFamily="mono">
         <Thead>
           <Tr>
