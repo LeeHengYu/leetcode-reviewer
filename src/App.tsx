@@ -7,7 +7,7 @@ import { useRef } from "react";
 
 function App() {
   const { colorMode } = useColorMode();
-  const bgColor = colorMode === "dark" ? "gray.800" : "gray.100";
+  const bgColor = colorMode === "dark" ? "gray.800" : "white";
 
   const inputRef = useRef<HTMLInputElement>(null);
 
