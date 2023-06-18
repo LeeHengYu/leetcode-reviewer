@@ -34,8 +34,8 @@ const tableData: Question[] = [
     },
     {
       question: "Number of Ways to Reorder Array to Get Same BST",
-      difficulty: "Hard",
       link: "https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/",
+      difficulty: "Hard",
       category: "Math",
       solution: "get-the-same-bst.py",
       dailyChallenge: new Date("2023-06-16"),

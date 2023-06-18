@@ -18,17 +18,20 @@ import {
 } from "@chakra-ui/react";
 import { useReducer, useState } from "react";
 import tableData from "../data/tablaData";
-import sortData from "../hook/sortData";
+import DataQuery from "../hook/dataQuery";
 import Difficulty from "./Difficulty";
 import ScriptLoader from "./ScriptLoader";
 import scriptReducer from "../reducers/scriptReducer";
 import ScriptContext from "../contexts/scriptContexts";
+import useQuestionFilterStore from "../store";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const [script, dispatch] = useReducer(scriptReducer, "");
+
+  const filters = useQuestionFilterStore((s) => s.filters);
 
   const handleSolutionClick = (solution: string) => {
     setSelectedSolution(solution);
@@ -64,7 +67,7 @@ const TableComponent = () => {
           </Tr>
         </Thead>
         <Tbody whiteSpace="nowrap">
-          {sortData(tableData)?.map((item, index) => (
+          {DataQuery(tableData, filters)?.map((item, index) => (
             <Tr key={index}>
               <Td color="blue.300">
                 <Link href={item.link} target="_blank">
