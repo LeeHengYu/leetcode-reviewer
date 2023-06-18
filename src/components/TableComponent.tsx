@@ -30,6 +30,7 @@ import CategorySelector from "./CategorySelector";
 import SortSelector from "./SortSelector";
 import useQuestionSortingStore from "../stores/QuestionSortingStore";
 import dataSorting from "../hook/dataSorting";
+import Reseter from "./Reseter";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
@@ -70,8 +71,9 @@ const TableComponent = () => {
         <CategorySelector />
         <SortSelector />
         <Button onClick={() => setReversed(!reversed)} colorScheme="linkedin">
-          Reversed
+          Reverse
         </Button>
+        <Reseter />
       </HStack>
       <Table variant="striped" size="lg" fontFamily="mono">
         <Thead>
