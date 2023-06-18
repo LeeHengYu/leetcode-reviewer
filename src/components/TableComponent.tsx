@@ -53,7 +53,7 @@ const TableComponent = () => {
 
   return (
     <Box>
-      <Table variant="striped" size="lg">
+      <Table variant="striped" size="lg" fontFamily="mono">
         <Thead>
           <Tr>
             <Th>Question</Th>
@@ -104,7 +104,9 @@ const TableComponent = () => {
               >
                 <ScriptLoader selectedSolution={selectedSolution} />
               </Code>
-              <Button onClick={handleCopyClick}>Copy</Button>
+              <Button onClick={handleCopyClick} marginBottom={2}>
+                Copy
+              </Button>
             </ModalBody>
           </ModalContent>
         </Modal>

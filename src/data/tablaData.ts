@@ -22,13 +22,15 @@ const tableData: Question[] = [
       link: "https://leetcode.com/problems/make-array-strictly-increasing/",
       category: "Dynamic Programming",
       solution: "make-array-strictly-increasing.py",
-      dailyChallenge: "2023-06-17", // Empty date
+      dailyChallenge: "2023-06-17",
     },
     {
-      question: "Question 3",
+      question: "Number of Increasing Paths in a Grid",
+      link: "https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/",
       difficulty: "Hard",
-      category: "Category 3",
-      solution: "Solution 3",
+      category: "Dynamic Programming",
+      dailyChallenge: "2023-06-18",
+      solution: "number-of-increasing-path-in-a-grid.py"
     },
     {
       question: "Question 3",
