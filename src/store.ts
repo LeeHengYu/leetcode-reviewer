@@ -3,13 +3,13 @@ import { create } from "zustand";
 export interface Filters {
     name?: string;
     category?: string;
-    difficulty?: "Easy" | "Medium" | "Hard";
+    difficulty?: string;
 }
 
 interface QuestionFilterStore {
     filters: Filters;
     setCategory: (category: string) => void;
-    setDifficulty: (difficulty: "Easy" | "Medium" | "Hard") => void;
+    setDifficulty: (difficulty: string) => void;
     setDate: (date: Date) => void;
     setSearchText: (text: string) => void;
 }
@@ -19,7 +19,7 @@ const useQuestionFilterStore = create<QuestionFilterStore>((set) => ({
     setCategory: (category: string) => {
         set(store => ({ filters: { ...store.filters, category } }));
     },
-    setDifficulty: (difficulty: "Easy" | "Medium" | "Hard") => {
+    setDifficulty: (difficulty: string) => {
         set(store => ({ filters: {...store.filters, difficulty} }));
     },
     setDate: (date: Date) => {

@@ -24,6 +24,7 @@ import ScriptLoader from "./ScriptLoader";
 import scriptReducer from "../reducers/scriptReducer";
 import ScriptContext from "../contexts/scriptContexts";
 import useQuestionFilterStore from "../store";
+import DifficultySelector from "./DifficultySelector";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
@@ -56,6 +57,7 @@ const TableComponent = () => {
 
   return (
     <Box>
+      <DifficultySelector />
       <Table variant="striped" size="lg" fontFamily="mono">
         <Thead>
           <Tr>
@@ -69,7 +71,7 @@ const TableComponent = () => {
         <Tbody whiteSpace="nowrap">
           {DataQuery(tableData, filters)?.map((item, index) => (
             <Tr key={index}>
-              <Td color="blue.300">
+              <Td color="blue.300" minWidth="30%">
                 <Link href={item.link} target="_blank">
                   {item.question}
                 </Link>

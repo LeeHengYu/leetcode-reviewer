@@ -60,19 +60,19 @@ const tableData: Question[] = [
     },
     {
       question: "Question dummy",
-      difficulty: "Hard",
+      difficulty: "Easy",
       category: "Category 1",
       solution: "Solution 1",
     },
     {
       question: "Question dummy",
-      difficulty: "Hard",
+      difficulty: "Easy",
       category: "Category 1",
       solution: "Solution 1",
     },
     {
       question: "Question dummy",
-      difficulty: "Hard",
+      difficulty: "Easy",
       category: "Category 1",
       solution: "Solution 1",
     },
