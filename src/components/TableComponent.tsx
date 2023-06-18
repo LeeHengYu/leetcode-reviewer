@@ -13,6 +13,7 @@ import {
   Table,
   Tbody,
   Td,
+  Text,
   Th,
   Thead,
   Tr,
@@ -66,14 +67,24 @@ const TableComponent = () => {
 
   return (
     <Box>
-      <HStack paddingLeft={1} spacing={5} marginY={2}>
-        <DifficultySelector />
-        <CategorySelector />
-        <SortSelector />
-        <Button onClick={() => setReversed(!reversed)} colorScheme="linkedin">
-          Reverse Sorting
-        </Button>
-        <Reseter />
+      <HStack paddingLeft={1} marginY={2} justifyContent="space-between">
+        <HStack spacing={5}>
+          <DifficultySelector />
+          <CategorySelector />
+          <SortSelector />
+          <Button onClick={() => setReversed(!reversed)} colorScheme="linkedin">
+            Reverse Sorting
+          </Button>
+          <Reseter />
+        </HStack>
+        <Text
+          fontWeight="bold"
+          fontFamily="sans-serif"
+          marginRight={2}
+          fontSize="xl"
+        >
+          Count: {tableData.length}
+        </Text>
       </HStack>
       <Table variant="striped" size="lg" fontFamily="mono">
         <Thead>
