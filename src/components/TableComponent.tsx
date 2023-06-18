@@ -71,7 +71,7 @@ const TableComponent = () => {
         <CategorySelector />
         <SortSelector />
         <Button onClick={() => setReversed(!reversed)} colorScheme="linkedin">
-          Reverse
+          Reverse Sorting
         </Button>
         <Reseter />
       </HStack>

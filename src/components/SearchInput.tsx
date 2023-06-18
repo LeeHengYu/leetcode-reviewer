@@ -1,11 +1,13 @@
 import { Input, InputGroup, InputLeftElement } from "@chakra-ui/react";
-import { useRef } from "react";
+import { useContext } from "react";
 import { BsSearch } from "react-icons/bs";
+import InputRefContexts from "../contexts/inputRefContexts";
 import useQuestionFilterStore from "../stores/QuestionFilterStore";
 
 const SearchInput = () => {
-  const ref = useRef<HTMLInputElement>(null);
   const setSearchText = useQuestionFilterStore((s) => s.setSearchText);
+
+  const { inputRef: ref } = useContext(InputRefContexts);
 
   return (
     <form
