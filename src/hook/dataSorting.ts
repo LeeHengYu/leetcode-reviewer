@@ -2,7 +2,7 @@ import { Question } from "../data/tablaData"
 
 const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
     let sortedData = data;
-    if (by==="category"){
+    if (by==="Category"){
         sortedData = data.sort((a,b) => {
             if (a.category && b.category){
                 return (a.category > b.category) ? 1 : -1;
@@ -11,7 +11,7 @@ const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
         })
     }
 
-    if (by==="difficulty"){
+    if (by==="Difficulty"){
         const mapping = ["Easy", "Medium", "Hard"];
         sortedData = data.sort((a,b) => {
             return mapping.indexOf(a.difficulty) - mapping.indexOf(b.difficulty);

@@ -27,6 +27,7 @@ import ScriptContext from "../contexts/scriptContexts";
 import useQuestionFilterStore from "../stores/QuestionFilterStore";
 import DifficultySelector from "./DifficultySelector";
 import CategorySelector from "./CategorySelector";
+import SortSelector from "./SortSelector";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
@@ -59,9 +60,10 @@ const TableComponent = () => {
 
   return (
     <Box>
-      <HStack paddingLeft={1} spacing={3}>
+      <HStack paddingLeft={1} spacing={5} marginY={2}>
         <DifficultySelector />
         <CategorySelector />
+        <SortSelector />
       </HStack>
       <Table variant="striped" size="lg" fontFamily="mono">
         <Thead>
@@ -76,7 +78,7 @@ const TableComponent = () => {
         <Tbody whiteSpace="nowrap">
           {DataQuery(tableData, filters)?.map((item, index) => (
             <Tr key={index}>
-              <Td color="blue.300" minWidth="30%">
+              <Td color="blue.300" minWidth="400px">
                 <Link href={item.link} target="_blank">
                   {item.question}
                 </Link>
