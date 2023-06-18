@@ -1,7 +1,7 @@
 import { create } from "zustand";
 
 export interface Filters {
-    name?: string;
+    text?: string;
     category?: string;
     difficulty?: string;
 }
@@ -10,7 +10,6 @@ interface QuestionFilterStore {
     filters: Filters;
     setCategory: (category: string) => void;
     setDifficulty: (difficulty: string) => void;
-    setDate: (date: Date) => void;
     setSearchText: (text: string) => void;
 }
 
@@ -21,9 +20,6 @@ const useQuestionFilterStore = create<QuestionFilterStore>((set) => ({
     },
     setDifficulty: (difficulty: string) => {
         set(store => ({ filters: {...store.filters, difficulty} }));
-    },
-    setDate: (date: Date) => {
-        set(store => ({ filters: {...store.filters, date} }));
     },
     setSearchText: (text: string) => {
         set(store => ({ filters: {...store.filters, text} }));

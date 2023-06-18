@@ -9,8 +9,8 @@ const DataQuery = (data: Question[], query: Filters) => {
     if (query.difficulty) {
         filteredData = filteredData.filter((question) => question.difficulty === query.difficulty);
     }
-    if (query.name) {
-        filteredData = filteredData.filter((question) => question.question.includes(query.name!));
+    if (query.text) {
+        filteredData = filteredData.filter((question) => (question.question).toLowerCase().includes((query.text!).toLowerCase()));
     }
     return filteredData;
 }
