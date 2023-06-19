@@ -159,6 +159,14 @@ const tableData: Question[] = [
       solution: "minimum-absolute-difference-in-bst.py",
       dailyChallenge: new Date("2023-06-14"),
     },
+    {
+      question: "Find the Highest Altitude",
+      link: "https://leetcode.com/problems/find-the-highest-altitude/",
+      difficulty: "Easy",
+      category: "Array & Hashing",
+      solution: "find-the-highest-altitude.py",
+      dailyChallenge: new Date("2023-06-19"),
+    },
   
   ];
 
