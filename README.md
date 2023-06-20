@@ -16,9 +16,10 @@ MVP completed.
 
 Todo:
 
-1. More other questions
+1. Import more other questions
 2. Routing to different pages
 3. Filter by dates
+4. TableComponent.tsx refactoring
 
 ## Why this project exists??
 
