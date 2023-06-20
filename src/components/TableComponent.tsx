@@ -55,15 +55,9 @@ const TableComponent = () => {
   };
 
   const handleCopyClick = () => {
-    navigator.clipboard
-      .writeText(script)
-      .then(() => {
-        console.log("Script copied to clipboard");
-        console.log(script);
-      })
-      .catch((error) => {
-        console.error("Error copying text:", error);
-      });
+    navigator.clipboard.writeText(script).catch((error) => {
+      console.error("Error copying text:", error);
+    });
   };
 
   return (
