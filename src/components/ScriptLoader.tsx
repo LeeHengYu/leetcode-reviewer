@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import ScriptContext from "../contexts/scriptContexts";
+import scriptContexts from "../contexts/scriptContexts";
 import useScripts from "../hook/useScripts";
 
 interface Props {
@@ -8,12 +8,12 @@ interface Props {
 
 const ScriptLoader = ({ selectedSolution }: Props) => {
   const { data, error } = useScripts(selectedSolution);
-  const { script, dispatch } = useContext(ScriptContext);
+  const { dispatch } = useContext(scriptContexts);
 
   useEffect(() => {
     if (error) throw Error("Error loading script");
-    if (data) dispatch({ type: "FECTH_SCRIPTS", data: script });
-  }, [error]);
+    if (data) dispatch({ type: "FECTH_SCRIPTS", data: data });
+  }, [data, error]);
 
   return <>{data || null}</>;
 };

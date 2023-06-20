@@ -19,19 +19,19 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { useReducer, useState } from "react";
+import ScriptContext from "../contexts/scriptContexts";
 import tableData from "../data/tablaData";
 import DataQuery from "../hook/dataQuery";
-import Difficulty from "./Difficulty";
-import ScriptLoader from "./ScriptLoader";
-import scriptReducer from "../reducers/scriptReducer";
-import ScriptContext from "../contexts/scriptContexts";
-import useQuestionFilterStore from "../stores/QuestionFilterStore";
-import DifficultySelector from "./DifficultySelector";
-import CategorySelector from "./CategorySelector";
-import SortSelector from "./SortSelector";
-import useQuestionSortingStore from "../stores/QuestionSortingStore";
 import dataSorting from "../hook/dataSorting";
+import scriptReducer from "../reducers/scriptReducer";
+import useQuestionFilterStore from "../stores/QuestionFilterStore";
+import useQuestionSortingStore from "../stores/QuestionSortingStore";
+import CategorySelector from "./CategorySelector";
+import Difficulty from "./Difficulty";
+import DifficultySelector from "./DifficultySelector";
 import Reseter from "./Reseter";
+import ScriptLoader from "./ScriptLoader";
+import SortSelector from "./SortSelector";
 
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
@@ -58,7 +58,8 @@ const TableComponent = () => {
     navigator.clipboard
       .writeText(script)
       .then(() => {
-        console.log("Text copied to clipboard");
+        console.log("Script copied to clipboard");
+        console.log(script);
       })
       .catch((error) => {
         console.error("Error copying text:", error);
@@ -140,7 +141,7 @@ const TableComponent = () => {
                 <ScriptLoader selectedSolution={selectedSolution} />
               </Code>
               <Button onClick={handleCopyClick} marginBottom={2}>
-                Copy Content
+                Copy Code
               </Button>
             </ModalBody>
           </ModalContent>
