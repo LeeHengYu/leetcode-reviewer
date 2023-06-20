@@ -167,6 +167,14 @@ const tableData: Question[] = [
       solution: "find-the-highest-altitude.py",
       dailyChallenge: new Date("2023-06-19"),
     },
+    {
+      question: "K Radius Subarray Averages",
+      link: "https://leetcode.com/problems/k-radius-subarray-averages/",
+      difficulty: "Medium",
+      category: "Arrays & Hashing",
+      solution: "k-radius-subarray-averages.py",
+      dailyChallenge: new Date("2023-06-20"),
+    },
   
   ];
 
