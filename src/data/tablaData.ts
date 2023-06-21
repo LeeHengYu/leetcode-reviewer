@@ -175,6 +175,14 @@ const tableData: Question[] = [
       solution: "k-radius-subarray-averages.py",
       dailyChallenge: new Date("2023-06-20"),
     },
+    {
+      question: "Minimum Cost to Make Array Equal",
+      link: "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+      difficulty: "Hard",
+      category: "Binary Search",
+      solution: "minimum-cost-to-make-array-equal.py",
+      dailyChallenge: new Date("2023-06-21"),
+    },
   
   ];
 
