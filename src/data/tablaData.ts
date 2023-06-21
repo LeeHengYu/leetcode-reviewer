@@ -183,6 +183,27 @@ const tableData: Question[] = [
       solution: "minimum-cost-to-make-array-equal.py",
       dailyChallenge: new Date("2023-06-21"),
     },
+    {
+      question: "Painting the Walls",
+      link: "https://leetcode.com/problems/painting-the-walls/",
+      difficulty: "Hard",
+      category: "Dynamic Programming",
+      solution: "painting-the-walls.py",
+    },
+    {
+      question: "Find the Value of the Partition",
+      link: "https://leetcode.com/problems/find-the-value-of-the-partition/",
+      difficulty: "Medium",
+      category: "Arrays & Hashing",
+      solution: "find-the-value-of-the-partition.py",
+    },
+    {
+      question: "Total Distance Traveled",
+      link: "https://leetcode.com/problems/total-distance-traveled/",
+      difficulty: "Easy",
+      category: "Arrays & Hashing",
+      solution: "total-distance-traveled.py",
+    },
   
   ];
 
