@@ -13,7 +13,7 @@ const ScriptLoader = ({ selectedSolution }: Props) => {
   useEffect(() => {
     if (error) throw Error("Error loading script");
     if (data) dispatch({ type: "FECTH_SCRIPTS", data: data });
-  }, [data, error]);
+  }, [data]);
 
   return <>{data || null}</>;
 };
