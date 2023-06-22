@@ -212,6 +212,20 @@ const tableData: Question[] = [
       solution: "best-time-to-buy-and-sell-stock-with-transaction-fee.py",
       dailyChallenge: new Date("2023-06-22"),
     },
+    {
+      question: "X of a Kind in a Deck of Cards",
+      link: "https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/",
+      difficulty: "Easy",
+      category: "Arrays & Hashing",
+      solution: "x-of-a-kind-in-a-deck-of-cards.py",
+    },
+    {
+      question: "Maximum Product of Three Numbers",
+      link: "https://leetcode.com/problems/maximum-product-of-three-numbers/",
+      difficulty: "Easy",
+      category: "Heap / Priority Queue",
+      solution: "maximum-product-of-three-numbers.py",
+    },
   
   ];
 
