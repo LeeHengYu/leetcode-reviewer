@@ -204,6 +204,14 @@ const tableData: Question[] = [
       category: "Arrays & Hashing",
       solution: "total-distance-traveled.py",
     },
+    {
+      question: "Best Time to Buy and Sell Stock with Transaction Fee",
+      link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "best-time-to-buy-and-sell-stock-with-transaction-fee.py",
+      dailyChallenge: new Date("2023-06-22"),
+    },
   
   ];
 
