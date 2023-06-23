@@ -226,7 +226,14 @@ const tableData: Question[] = [
       category: "Heap / Priority Queue",
       solution: "maximum-product-of-three-numbers.py",
     },
-  
+    {
+      question: "Longest Arithmetic Subsequence",
+      link: "https://leetcode.com/problems/longest-arithmetic-subsequence/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "longest-arithmetic-subsequence.py",
+      dailyChallenge: new Date("2023-06-23"),
+    },
   ];
 
 export default tableData;
