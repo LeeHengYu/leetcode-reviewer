@@ -234,6 +234,14 @@ const tableData: Question[] = [
       solution: "longest-arithmetic-subsequence.py",
       dailyChallenge: new Date("2023-06-23"),
     },
+    {
+      question: "Tallest Billboard",
+      link: "https://leetcode.com/problems/tallest-billboard/",
+      difficulty: "Hard",
+      category: "Dynamic Programming",
+      solution: "tallest-billboard.py",
+      dailyChallenge: new Date("2023-06-24"),
+    },
   ];
 
 export default tableData;
