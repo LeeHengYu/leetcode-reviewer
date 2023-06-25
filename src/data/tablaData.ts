@@ -250,6 +250,20 @@ const tableData: Question[] = [
       solution: "count-all-possible-routes.py",
       dailyChallenge: new Date("2023-06-25"),
     },
+    {
+      question: "Number of Beautiful Pairs",
+      link: "https://leetcode.com/problems/number-of-beautiful-pairs/",
+      difficulty: "Easy",
+      category: "Arrays & Hashing",
+      solution: "number-of-beautiful-pairs.py",
+    },
+    {
+      question: "Minimum Operations to Make the Integer Zero",
+      link: "https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/",
+      difficulty: "Medium",
+      category: "Bit Manipulation",
+      solution: "minimum-operations-to-make-the-integer-zero.py",
+    },
   ];
 
 export default tableData;
