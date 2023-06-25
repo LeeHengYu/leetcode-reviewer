@@ -242,6 +242,14 @@ const tableData: Question[] = [
       solution: "tallest-billboard.py",
       dailyChallenge: new Date("2023-06-24"),
     },
+    {
+      question: "Count All Possible Routes",
+      link: "https://leetcode.com/problems/count-all-possible-routes/",
+      difficulty: "Hard",
+      category: "Graph",
+      solution: "count-all-possible-routes.py",
+      dailyChallenge: new Date("2023-06-25"),
+    },
   ];
 
 export default tableData;
