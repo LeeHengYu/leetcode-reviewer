@@ -16,18 +16,10 @@ MVP completed.
 
 Todo:
 
-1. Import more other questions
+1. Enable multiple tags
 2. Routing to different pages
 3. Filter by dates
 4. TableComponent.tsx refactoring
-
-## Why this project exists??
-
-Because I didn't get a job for 2023 summer and the recruting season for 2024 summer internship is imminent.
-
-If I don't do something else in this summer, my CV would be empty af due to lack of working experience.
-
-Having said that, the situation is still pretty dire because exp is way more important.
 
 ## Deployment
 
