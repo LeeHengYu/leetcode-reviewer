@@ -272,6 +272,13 @@ const tableData: Question[] = [
       solution: "total-cost-to-hire-k-workers.py",
       dailyChallenge: new Date("2023-06-26"),
     },
+    {
+      question: "Number of Ways to Split Array",
+      link: "https://leetcode.com/problems/number-of-ways-to-split-array/",
+      difficulty: "Medium",
+      category: "Arrays & Hashing",
+      solution: "number-of-ways-to-split-array.py",
+    },
   ];
 
 export default tableData;
