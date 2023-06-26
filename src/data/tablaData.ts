@@ -252,8 +252,8 @@ const tableData: Question[] = [
     },
     {
       question: "Number of Beautiful Pairs",
-      link: "https://leetcode.com/problems/number-of-beautiful-pairs/",
       difficulty: "Easy",
+      link: "https://leetcode.com/problems/number-of-beautiful-pairs/",
       category: "Arrays & Hashing",
       solution: "number-of-beautiful-pairs.py",
     },
@@ -263,6 +263,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       category: "Bit Manipulation",
       solution: "minimum-operations-to-make-the-integer-zero.py",
+    },
+    {
+      question: "Total Cost to Hire K Workers",
+      link: "https://leetcode.com/problems/total-cost-to-hire-k-workers/",
+      difficulty: "Medium",
+      category: "Priority Queue",
+      solution: "total-cost-to-hire-k-workers.py",
+      dailyChallenge: new Date("2023-06-26"),
     },
   ];
 
