@@ -286,6 +286,13 @@ const tableData: Question[] = [
       category: "Arrays & Hashing",
       solution: "all-divisions-with-the-highest-score-of-a-binary-array.py",
     },
+    {
+      question: "Extra Characters in a String",
+      link: "https://leetcode.com/problems/extra-characters-in-a-string/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "extra-characters-in-a-string.py",
+    },
   ];
 
 export default tableData;
