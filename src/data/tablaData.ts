@@ -279,6 +279,13 @@ const tableData: Question[] = [
       category: "Arrays & Hashing",
       solution: "number-of-ways-to-split-array.py",
     },
+    {
+      question: "All Divisions With the Highest Score of a Binary Array",
+      link: "https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/",
+      difficulty: "Medium",
+      category: "Arrays & Hashing",
+      solution: "all-divisions-with-the-highest-score-of-a-binary-array.py",
+    },
   ];
 
 export default tableData;
