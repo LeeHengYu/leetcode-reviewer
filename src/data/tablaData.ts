@@ -301,6 +301,13 @@ const tableData: Question[] = [
       solution: "find-k-pairs-with-smallest-sums.py",
       dailyChallenge: new Date("2023-06-27"),
     },
+    {
+      question: "Guess Number Higher or Lower II",
+      link: "https://leetcode.com/problems/guess-number-higher-or-lower-ii/",
+      difficulty: "Medium",
+      category: "Dyamic Programming",
+      solution: "guess-number-higher-or-lower-ii.py",
+    },
   ];
 
 export default tableData;
