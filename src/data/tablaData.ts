@@ -293,6 +293,14 @@ const tableData: Question[] = [
       category: "Dynamic Programming",
       solution: "extra-characters-in-a-string.py",
     },
+    {
+      question: "Find K Pairs with Smallest Sums",
+      link: "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/",
+      difficulty: "Medium",
+      category: "Priority Queue",
+      solution: "find-k-pairs-with-smallest-sums.py",
+      dailyChallenge: new Date("2023-06-27"),
+    },
   ];
 
 export default tableData;
