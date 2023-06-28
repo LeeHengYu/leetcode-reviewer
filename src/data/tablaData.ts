@@ -308,6 +308,13 @@ const tableData: Question[] = [
       category: "Dyamic Programming",
       solution: "guess-number-higher-or-lower-ii.py",
     },
+    {
+      question: "Path with Maximum Probability",
+      link: "https://leetcode.com/problems/path-with-maximum-probability/",
+      difficulty: "Medium",
+      category: "Graph",
+      solution: "path-with-maximum-probability.py",
+    },
   ];
 
 export default tableData;
