@@ -314,6 +314,7 @@ const tableData: Question[] = [
       difficulty: "Medium",
       category: "Graph",
       solution: "path-with-maximum-probability.py",
+      dailyChallenge: new Date("2023-06-28"),
     },
   ];
 
