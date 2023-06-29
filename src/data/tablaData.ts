@@ -316,6 +316,14 @@ const tableData: Question[] = [
       solution: "path-with-maximum-probability.py",
       dailyChallenge: new Date("2023-06-28"),
     },
+    {
+      question: "Shortest Path to Get All Keys",
+      link: "https://leetcode.com/problems/shortest-path-to-get-all-keys/",
+      difficulty: "Hard",
+      category: "Graph",
+      solution: "shortest-path-to-get-all-keys.py",
+      dailyChallenge: new Date("2023-06-29"),
+    },
   ];
 
 export default tableData;
