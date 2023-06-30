@@ -324,6 +324,14 @@ const tableData: Question[] = [
       solution: "shortest-path-to-get-all-keys.py",
       dailyChallenge: new Date("2023-06-29"),
     },
+    {
+      question: "Last Day Where You Can Still Cross",
+      link: "https://leetcode.com/problems/last-day-where-you-can-still-cross/",
+      difficulty: "Hard",
+      category: "Graph",
+      solution: "last-day-where-you-can-still-cross.py",
+      dailyChallenge: new Date("2023-06-30"),
+    },
   ];
 
 export default tableData;
