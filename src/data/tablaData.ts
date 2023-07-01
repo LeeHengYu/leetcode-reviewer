@@ -332,6 +332,14 @@ const tableData: Question[] = [
       solution: "last-day-where-you-can-still-cross.py",
       dailyChallenge: new Date("2023-06-30"),
     },
+    {
+      question: "Fair Distribution of Cookies",
+      link: "https://leetcode.com/problems/fair-distribution-of-cookies/",
+      difficulty: "Medium",
+      category: "Backtracking",
+      solution: "fair-distribution-of-cookies.py",
+      dailyChallenge: new Date("2023-07-01"),
+    },
   ];
 
 export default tableData;
