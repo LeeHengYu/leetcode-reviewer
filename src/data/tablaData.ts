@@ -340,6 +340,14 @@ const tableData: Question[] = [
       solution: "fair-distribution-of-cookies.py",
       dailyChallenge: new Date("2023-07-01"),
     },
+    {
+      question: "Maximum Number of Achievable Transfer Requests",
+      link: "https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/",
+      difficulty: "Hard",
+      category: "Backtracking",
+      solution: "maximum-number-of-achievable-transfer-requests.py",
+      dailyChallenge: new Date("2023-07-02"),
+    },
   ];
 
 export default tableData;
