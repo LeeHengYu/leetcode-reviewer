@@ -348,6 +348,14 @@ const tableData: Question[] = [
       solution: "maximum-number-of-achievable-transfer-requests.py",
       dailyChallenge: new Date("2023-07-02"),
     },
+    {
+      question: "Buddy Strings",
+      link: "https://leetcode.com/problems/buddy-strings/",
+      difficulty: "Easy",
+      category: "Arrays & Hashing",
+      solution: "buddy-strings.py",
+      dailyChallenge: new Date("2023-07-03"),
+    },
   ];
 
 export default tableData;
