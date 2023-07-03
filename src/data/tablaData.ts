@@ -356,6 +356,13 @@ const tableData: Question[] = [
       solution: "buddy-strings.py",
       dailyChallenge: new Date("2023-07-03"),
     },
+    {
+      question: "Single-Threaded CPU",
+      link: "https://leetcode.com/problems/single-threaded-cpu/",
+      difficulty: "Medium",
+      category: "Priority Queue",
+      solution: "single-threaded-cpu.py",
+    },
   ];
 
 export default tableData;
