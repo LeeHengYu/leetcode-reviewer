@@ -363,6 +363,14 @@ const tableData: Question[] = [
       category: "Priority Queue",
       solution: "single-threaded-cpu.py",
     },
+    {
+      question: "Single Number II",
+      link: "https://leetcode.com/problems/single-number-ii/",
+      difficulty: "Medium",
+      category: "Arrays & Hashing",
+      solution: "single-number-ii.py",
+      dailyChallenge: new Date("2023-07-04"),
+    },
   ];
 
 export default tableData;
