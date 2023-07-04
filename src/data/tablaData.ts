@@ -371,6 +371,13 @@ const tableData: Question[] = [
       solution: "single-number-ii.py",
       dailyChallenge: new Date("2023-07-04"),
     },
+    {
+      question: "Remove Zero Sum Consecutive Nodes from Linked List",
+      link: "https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/",
+      difficulty: "Medium",
+      category: "Linked List",
+      solution: "remove-zero-sum-consecutive-nodes-from-linked-list.py",
+    },
   ];
 
 export default tableData;
