@@ -378,6 +378,15 @@ const tableData: Question[] = [
       category: "Linked List",
       solution: "remove-zero-sum-consecutive-nodes-from-linked-list.py",
     },
+    
+    {
+      question: "Longest Subarray of 1's After Deleting One Element",
+      link: "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/",
+      difficulty: "Medium",
+      category: "Sliding Window",
+      solution: "longest-subarray-of-1s-after-deleting-one-element.py",
+      dailyChallenge: new Date("2023-07-05"),
+    },
   ];
 
 export default tableData;
