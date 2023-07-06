@@ -377,8 +377,7 @@ const tableData: Question[] = [
       difficulty: "Medium",
       category: "Linked List",
       solution: "remove-zero-sum-consecutive-nodes-from-linked-list.py",
-    },
-    
+    },    
     {
       question: "Longest Subarray of 1's After Deleting One Element",
       link: "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/",
@@ -386,6 +385,14 @@ const tableData: Question[] = [
       category: "Sliding Window",
       solution: "longest-subarray-of-1s-after-deleting-one-element.py",
       dailyChallenge: new Date("2023-07-05"),
+    },
+    {
+      question: "Minimum Size Subarray Sum",
+      link: "https://leetcode.com/problems/minimum-size-subarray-sum/",
+      difficulty: "Medium",
+      category: "Sliding Window",
+      solution: "minimum-size-subarray-sum.py",
+      dailyChallenge: new Date("2023-07-06"),
     },
   ];
 
