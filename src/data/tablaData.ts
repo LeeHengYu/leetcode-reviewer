@@ -394,6 +394,13 @@ const tableData: Question[] = [
       solution: "minimum-size-subarray-sum.py",
       dailyChallenge: new Date("2023-07-06"),
     },
+    {
+      question: "Combinations",
+      link: "https://leetcode.com/problems/combinations/",
+      difficulty: "Medium",
+      category: "Backtracking",
+      solution: "combinations.py",
+    },
   ];
 
 export default tableData;
