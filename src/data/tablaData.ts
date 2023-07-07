@@ -401,6 +401,14 @@ const tableData: Question[] = [
       category: "Backtracking",
       solution: "combinations.py",
     },
+    {
+      question: "Maximize the Confusion of an Exam",
+      link: "https://leetcode.com/problems/maximize-the-confusion-of-an-exam/",
+      difficulty: "Medium",
+      category: "Sliding Window",
+      solution: "maximize-the-confusion-of-an-exam.py",
+      dailyChallenge: new Date("2023-07-07"),
+    },
   ];
 
 export default tableData;
