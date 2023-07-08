@@ -409,6 +409,14 @@ const tableData: Question[] = [
       solution: "maximize-the-confusion-of-an-exam.py",
       dailyChallenge: new Date("2023-07-07"),
     },
+    {
+      question: "Put Marbles in Bags",
+      link: "https://leetcode.com/problems/put-marbles-in-bags/",
+      difficulty: "Hard",
+      category: "Math",
+      solution: "put-marbles-in-bags.py",
+      dailyChallenge: new Date("2023-07-08"),
+    },
   ];
 
 export default tableData;
