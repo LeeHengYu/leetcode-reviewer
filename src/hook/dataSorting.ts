@@ -16,19 +16,23 @@ const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
         })
     }
 
-    else if (!by) {
+    if (by==="date"){
         sortedData = data.sort((a,b) => {
-            if (a.dailyChallenge && b.dailyChallenge){
-                return (a.dailyChallenge > b.dailyChallenge) ? 1 : -1;
+            if (a.dailyChallenge && !b.dailyChallenge) return -1;
+            if (!a.dailyChallenge && b.dailyChallenge) return 1;
+            if (a.dailyChallenge && b.dailyChallenge) {
+                const date1 = new Date(a.dailyChallenge).getTime();
+                const date2 = new Date(b.dailyChallenge).getTime();
+                return date2 - date1;
             }
-            else if (a.dailyChallenge){
-                return 1;
-            }
-            else if (b.dailyChallenge){
-                return -1;
-            }
-            else return 0
-        }).reverse(); // default sort by date
+            return 0;
+        })
+    }
+
+    else if (!by || by=="date") {
+        sortedData = data.sort((a,b) => {
+            return a.question.localeCompare(b.question);
+        }); // default sort by question
     }
 
     if (reverse) return sortedData.reverse();
