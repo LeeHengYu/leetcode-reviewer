@@ -417,6 +417,14 @@ const tableData: Question[] = [
       solution: "put-marbles-in-bags.py",
       dailyChallenge: new Date("2023-07-08"),
     },
+    {
+      question: "Substring With Largest Variance",
+      link: "https://leetcode.com/problems/substring-with-largest-variance/",
+      category: "Arrays & Hashing",
+      difficulty: "Hard",
+      solution: "substring-with-largest-variance.py",
+      dailyChallenge: new Date("2023-07-09"),
+    },
   ];
 
 export default tableData;
