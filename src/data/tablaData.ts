@@ -425,6 +425,13 @@ const tableData: Question[] = [
       solution: "substring-with-largest-variance.py",
       dailyChallenge: new Date("2023-07-09"),
     },
+    {
+      question: "Subarray Sum Equals K",
+      link: "https://leetcode.com/problems/subarray-sum-equals-k/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "subarray-sum-equals-k.py",
+    },
   ];
 
 export default tableData;
