@@ -432,6 +432,21 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "subarray-sum-equals-k.py",
     },
+    {
+      question: "Minimum Depth of Binary Tree",
+      link: "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+      category: "Tree",
+      difficulty: "Easy",
+      solution: "minimum-depth-of-binary-tree.py",
+      dailyChallenge: new Date("2023-07-10"),
+    },
+    {
+      question: "Maximum Depth of Binary Tree",
+      link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+      category: "Tree",
+      difficulty: "Easy",
+      solution: "maximum-depth-of-binary-tree.py",
+    },
   ];
 
 export default tableData;
