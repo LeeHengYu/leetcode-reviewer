@@ -447,6 +447,14 @@ const tableData: Question[] = [
       difficulty: "Easy",
       solution: "maximum-depth-of-binary-tree.py",
     },
+    {
+      question: "All Nodes Distance K in Binary Tree",
+      link: "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+      category: "Tree",
+      difficulty: "Medium",
+      solution: "all-nodes-distance-k-in-binary-tree.py",
+      dailyChallenge: new Date("2023-07-11"),
+    },
   ];
 
 export default tableData;
