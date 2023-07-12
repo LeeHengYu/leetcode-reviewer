@@ -12,6 +12,9 @@ const DataQuery = (data: Question[], query: Filters) => {
     if (query.text) {
         filteredData = filteredData.filter((question) => (question.question).toLowerCase().includes((query.text!).toLowerCase()));
     }
+    if (query.onlyDC) {
+        filteredData = filteredData.filter((question) => question.dailyChallenge !== undefined);
+    }
     return filteredData;
 }
 

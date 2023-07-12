@@ -88,7 +88,7 @@ const TableComponent = () => {
             <Th>Difficulty</Th>
             <Th>Category</Th>
             <Th>Solution</Th>
-            <Th>Daily Challenge</Th>
+            <Th whiteSpace="nowrap">Daily Challenge</Th>
           </Tr>
         </Thead>
         <Tbody whiteSpace="nowrap">
