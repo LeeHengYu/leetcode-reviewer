@@ -458,7 +458,7 @@ const tableData: Question[] = [
     {
       question: "Find Eventual Safe States",
       link: "https://leetcode.com/problems/find-eventual-safe-states/",
-      category: "Graph",
+      category: "Advanced Graph",
       difficulty: "Medium",
       solution: "find-eventual-safe-states.py",
       dailyChallenge: new Date("2023-07-12"),
