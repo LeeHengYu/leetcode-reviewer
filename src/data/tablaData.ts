@@ -455,6 +455,14 @@ const tableData: Question[] = [
       solution: "all-nodes-distance-k-in-binary-tree.py",
       dailyChallenge: new Date("2023-07-11"),
     },
+    {
+      question: "Find Eventual Safe States",
+      link: "https://leetcode.com/problems/find-eventual-safe-states/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "find-eventual-safe-states.py",
+      dailyChallenge: new Date("2023-07-12"),
+    },
   ];
 
 export default tableData;
