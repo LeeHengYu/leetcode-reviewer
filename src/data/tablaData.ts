@@ -478,6 +478,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "course-schedule-ii.py",
     },
+    {
+      question: "Maximum Subarray Sum with One Deletion",
+      link: "https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "maximum-subarray-sum-with-one-deletion.py",
+    },
   ];
 
 export default tableData;
