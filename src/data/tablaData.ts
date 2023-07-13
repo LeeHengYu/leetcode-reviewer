@@ -463,6 +463,21 @@ const tableData: Question[] = [
       solution: "find-eventual-safe-states.py",
       dailyChallenge: new Date("2023-07-12"),
     },
+    {
+      question: "Course Schedule",
+      link: "https://leetcode.com/problems/course-schedule/",
+      category: "Advanced Graph",
+      difficulty: "Medium",
+      solution: "course-schedule.py",
+      dailyChallenge: new Date("2023-07-13"),
+    },
+    {
+      question: "Course Schedule II",
+      link: "https://leetcode.com/problems/course-schedule-ii/",
+      category: "Advanced Graph",
+      difficulty: "Medium",
+      solution: "course-schedule-ii.py",
+    },
   ];
 
 export default tableData;
