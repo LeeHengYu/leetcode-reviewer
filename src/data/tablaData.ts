@@ -492,6 +492,13 @@ const tableData: Question[] = [
       difficulty: "Easy",
       solution: "verifying-an-alien-dictionary.py",
     },
+    {
+      question: "Decode String",
+      link: "https://leetcode.com/problems/decode-string/",
+      category: "Stack",
+      difficulty: "Medium",
+      solution: "decode-string.py",
+    },
   ];
 
 export default tableData;
