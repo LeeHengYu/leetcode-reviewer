@@ -485,6 +485,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "maximum-subarray-sum-with-one-deletion.py",
     },
+    {
+      question: "Verifying an Alien Dictionary",
+      link: "https://leetcode.com/problems/verifying-an-alien-dictionary/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "verifying-an-alien-dictionary.py",
+    },
   ];
 
 export default tableData;
