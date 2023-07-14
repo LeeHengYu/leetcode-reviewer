@@ -507,6 +507,13 @@ const tableData: Question[] = [
       solution: "longest-arithmetic-subsequence-of-given-difference.py",
       dailyChallenge: new Date("2023-07-14"),
     },
+    {
+      question: "Insert Interval",
+      link: "https://leetcode.com/problems/insert-interval/",
+      category: "Interval",
+      difficulty: "Medium",
+      solution: "insert-interval.py",
+    },
   ];
 
 export default tableData;
