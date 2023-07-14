@@ -514,6 +514,27 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "insert-interval.py",
     },
+    {
+      question: "Longest Increasing Path in a Matrix",
+      link: "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "longest-increasing-path-in-a-matrix.py",
+    },
+    {
+      question: "Palindrome Partitioning",
+      link: "https://leetcode.com/problems/palindrome-partitioning/",
+      category: "Backtracking",
+      difficulty: "Medium",
+      solution: "palindrome-partitioning.py",
+    },
+    {
+      question: "Valid Sudoku",
+      link: "https://leetcode.com/problems/valid-sudoku/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "valid-sudoku.py",
+    },
   ];
 
 export default tableData;
