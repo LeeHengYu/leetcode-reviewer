@@ -12,6 +12,9 @@ const DifficultySelector = () => {
         {difficulty || "Difficulty"}
       </MenuButton>
       <MenuList>
+        <MenuItem key="all" onClick={() => setDifficulty("")}>
+          All
+        </MenuItem>
         {difficulties.map((difficulty) => (
           <MenuItem onClick={() => setDifficulty(difficulty)} key={difficulty}>
             {difficulty}
