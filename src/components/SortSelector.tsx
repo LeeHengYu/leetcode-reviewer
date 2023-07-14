@@ -27,7 +27,7 @@ const SortSelector = () => {
         </MenuButton>
         <MenuList>
           {mapping.map((type) => (
-            <MenuItem key={type} onClick={() => setBy(type)}>
+            <MenuItem key={type} onClick={() => setBy(type.toLowerCase())}>
               {type.toUpperCase()}
             </MenuItem>
           ))}

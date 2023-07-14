@@ -3,6 +3,7 @@ import { Question } from "../data/tablaData"
 const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
     const mapping = ["Easy", "Medium", "Hard"];
     let sortedData = data;
+
     if (by==="category"){
         sortedData = data.sort((a,b) => {
             //sort by category in lexical order
@@ -10,13 +11,13 @@ const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
         })
     }
 
-    if (by==="difficulty"){
+    else if (by==="difficulty"){
         sortedData = data.sort((a,b) => {
             return mapping.indexOf(a.difficulty) - mapping.indexOf(b.difficulty);
         })
     }
 
-    if (by==="date"){
+    else if (by==="date"){
         sortedData = data.sort((a,b) => {
             if (a.dailyChallenge && !b.dailyChallenge) return -1;
             if (!a.dailyChallenge && b.dailyChallenge) return 1;
@@ -29,7 +30,7 @@ const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
         })
     }
 
-    else if (!by || by=="date") {
+    else {
         sortedData = data.sort((a,b) => {
             return a.question.localeCompare(b.question);
         }); // default sort by question
