@@ -32,7 +32,7 @@ const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
 
     else {
         sortedData = data.sort((a,b) => {
-            return a.question.localeCompare(b.question);
+            return a.question.toLocaleLowerCase().localeCompare(b.question.toLocaleLowerCase());
         }); // default sort by question
     }
 
