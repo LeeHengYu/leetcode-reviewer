@@ -542,6 +542,20 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "min-stack.py",
     },
+    {
+      question: "Detect Squares",
+      link: "https://leetcode.com/problems/detect-squares/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "detect-squares.py",
+    },
+    {
+      question: "House Robber II",
+      link: "https://leetcode.com/problems/house-robber-ii/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "house-robber-ii.py",
+    },
   ];
 
 export default tableData;
