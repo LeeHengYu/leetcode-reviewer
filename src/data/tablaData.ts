@@ -535,6 +535,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "valid-sudoku.py",
     },
+    {
+      question: "Min Stack",
+      link: "https://leetcode.com/problems/min-stack/",
+      category: "Stack",
+      difficulty: "Medium",
+      solution: "min-stack.py",
+    },
   ];
 
 export default tableData;
