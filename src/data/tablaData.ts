@@ -556,6 +556,20 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "house-robber-ii.py",
     },
+    {
+      question: "Target Sum",
+      link: "https://leetcode.com/problems/target-sum/",
+      category: "Backtracking",
+      difficulty: "Medium",
+      solution: "target-sum.py",
+    },
+    {
+      question: "Valid Parenthesis String",
+      link: "https://leetcode.com/problems/valid-parenthesis-string/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "valid-parenthesis-string.py",
+    },
   ];
 
 export default tableData;
