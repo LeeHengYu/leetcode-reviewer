@@ -499,6 +499,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "decode-string.py",
     },
+    {
+      question: "Longest Arithmetic Subsequence of Given Difference",
+      link: "https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "longest-arithmetic-subsequence-of-given-difference.py",
+      dailyChallenge: new Date("2023-07-14"),
+    },
   ];
 
 export default tableData;
