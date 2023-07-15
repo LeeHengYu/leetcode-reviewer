@@ -570,6 +570,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "valid-parenthesis-string.py",
     },
+    {
+      question: "Maximum Number of Events That Can Be Attended II",
+      link: "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "maximum-number-of-events-that-can-be-attended-ii.py",
+    },
   ];
 
 export default tableData;
