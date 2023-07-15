@@ -606,6 +606,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "construct-binary-tree-from-preorder-and-inorder-traversal.py",
     },
+    {
+      question: "Merge k Sorted Lists",
+      link: "https://leetcode.com/problems/merge-k-sorted-lists/",
+      category: "Priority Queue",
+      difficulty: "Hard",
+      solution: "merge-k-sorted-lists.py",
+    },
   ];
 
 export default tableData;
