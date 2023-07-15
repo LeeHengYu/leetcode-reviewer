@@ -592,6 +592,20 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "daily-temperatures.py",
     },
+    {
+      question: "Reconstruct Itinerary",
+      link: "https://leetcode.com/problems/reconstruct-itinerary/",
+      category: "Advanced Graph",
+      difficulty: "Hard",
+      solution: "reconstruct-itinerary.py",
+    },
+    {
+      question: "Construct Binary Tree from Preorder and Inorder Traversal",
+      link: "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+      category: "Tree",
+      difficulty: "Medium",
+      solution: "construct-binary-tree-from-preorder-and-inorder-traversal.py",
+    },
   ];
 
 export default tableData;
