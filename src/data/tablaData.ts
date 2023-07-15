@@ -613,6 +613,13 @@ const tableData: Question[] = [
       difficulty: "Hard",
       solution: "merge-k-sorted-lists.py",
     },
+    {
+      question: "Non-overlapping Intervals",
+      link: "https://leetcode.com/problems/non-overlapping-intervals/",
+      category: "Interval",
+      difficulty: "Medium",
+      solution: "non-overlapping-intervals.py",
+    },
   ];
 
 export default tableData;
