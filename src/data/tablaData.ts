@@ -578,6 +578,13 @@ const tableData: Question[] = [
       solution: "maximum-number-of-events-that-can-be-attended-ii.py",
       dailyChallenge: new Date("2023-07-15"),
     },
+    {
+      question: "Maximum Number of Events That Can Be Attended",
+      link: "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/",
+      category: "Heap / Priority Queue",
+      difficulty: "Medium",
+      solution: "maximum-number-of-events-that-can-be-attended.py",
+    },
   ];
 
 export default tableData;
