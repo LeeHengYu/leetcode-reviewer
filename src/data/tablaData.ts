@@ -609,7 +609,7 @@ const tableData: Question[] = [
     {
       question: "Merge k Sorted Lists",
       link: "https://leetcode.com/problems/merge-k-sorted-lists/",
-      category: "Priority Queue",
+      category: "Heap / Priority Queue",
       difficulty: "Hard",
       solution: "merge-k-sorted-lists.py",
     },
