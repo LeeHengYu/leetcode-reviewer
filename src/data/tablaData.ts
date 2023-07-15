@@ -585,6 +585,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "maximum-number-of-events-that-can-be-attended.py",
     },
+    {
+      question: "Daily Temperatures",
+      link: "https://leetcode.com/problems/daily-temperatures/",
+      category: "Stack",
+      difficulty: "Medium",
+      solution: "daily-temperatures.py",
+    },
   ];
 
 export default tableData;
