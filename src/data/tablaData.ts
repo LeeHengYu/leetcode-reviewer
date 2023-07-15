@@ -620,6 +620,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "non-overlapping-intervals.py",
     },
+    {
+      question: "Number of Subsequences That Satisfy the Given Sum Condition",
+      link: "https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/",
+      category: "Pointers",
+      difficulty: "Medium",
+      solution: "number-of-subsequences-that-satisfy-the-given-sum-condition.py",
+    },
   ];
 
 export default tableData;
