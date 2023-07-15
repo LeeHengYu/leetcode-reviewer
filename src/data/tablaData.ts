@@ -576,6 +576,7 @@ const tableData: Question[] = [
       category: "Dynamic Programming",
       difficulty: "Hard",
       solution: "maximum-number-of-events-that-can-be-attended-ii.py",
+      dailyChallenge: new Date("2023-07-15"),
     },
   ];
 
