@@ -627,6 +627,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "number-of-subsequences-that-satisfy-the-given-sum-condition.py",
     },
+    {
+      question: "Smallest Sufficient Team",
+      link: "https://leetcode.com/problems/smallest-sufficient-team/",
+      category: "Backtracking",
+      difficulty: "Hard",
+      solution: "smallest-sufficient-team.py",
+      dailyChallenge: new Date("2023-07-16"),
+    },
   ];
 
 export default tableData;
