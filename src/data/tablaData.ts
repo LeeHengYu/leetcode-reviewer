@@ -642,6 +642,13 @@ const tableData: Question[] = [
       difficulty: "Easy",
       solution: "valid-parentheses.py",
     },
+    {
+      question: "Connecting Graph III",
+      link: "https://www.lintcode.com/problem/591/",
+      category: "Advanced Graph",
+      difficulty: "Medium",
+      solution: "union-find-algorithm.py",
+    },
   ];
 
 export default tableData;
