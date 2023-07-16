@@ -649,6 +649,20 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "union-find-algorithm.py",
     },
+    {
+      question: "Maximum Beauty of an Array After Applying Operation",
+      link: "https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation/",
+      category: "Sliding Window",
+      difficulty: "Medium",
+      solution: "maximum-beauty-of-an-array-after-applying-operation.py",
+    },
+    {
+      question: "Sum of Squares of Special Elements",
+      link: "https://leetcode.com/problems/sum-of-squares-of-special-elements/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "sum-of-squares-of-special-elements.py",
+    },
   ];
 
 export default tableData;
