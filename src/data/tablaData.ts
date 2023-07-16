@@ -663,6 +663,13 @@ const tableData: Question[] = [
       difficulty: "Easy",
       solution: "sum-of-squares-of-special-elements.py",
     },
+    {
+      question: "Minimum Index of a Valid Split",
+      link: "https://leetcode.com/problems/minimum-index-of-a-valid-split/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "minimum-index-of-a-valid-split.py",
+    },
   ];
 
 export default tableData;
