@@ -78,7 +78,10 @@ const TableComponent = () => {
           marginRight={2}
           fontSize="xl"
         >
-          Count: {tableData.length}
+          Count: {tableData.length} (
+          {tableData.filter((q) => q.difficulty === "Easy").length}/
+          {tableData.filter((q) => q.difficulty === "Medium").length}/
+          {tableData.filter((q) => q.difficulty === "Hard").length})
         </Text>
       </HStack>
       <Table variant="striped" size="lg" fontFamily="mono">
