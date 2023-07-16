@@ -635,6 +635,13 @@ const tableData: Question[] = [
       solution: "smallest-sufficient-team.py",
       dailyChallenge: new Date("2023-07-16"),
     },
+    {
+      question: "Valid Parentheses",
+      link: "https://leetcode.com/problems/valid-parentheses/",
+      category: "Stack",
+      difficulty: "Easy",
+      solution: "valid-parentheses.py",
+    },
   ];
 
 export default tableData;
