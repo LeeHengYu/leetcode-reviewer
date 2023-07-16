@@ -16,7 +16,7 @@ const CategorySelector = () => {
         <MenuItem key="all" onClick={() => setCategory("")}>
           All
         </MenuItem>
-        {categories.map((cat) => (
+        {categories.sort().map((cat) => (
           <MenuItem onClick={() => setCategory(cat)} key={cat}>
             {cat}
           </MenuItem>
