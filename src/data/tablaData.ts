@@ -685,6 +685,13 @@ const tableData: Question[] = [
       difficulty: "Hard",
       solution: "length-of-the-longest-valid-substring.py",
     },
+    {
+      question: "Partition Labels",
+      link: "https://leetcode.com/problems/partition-labels/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "partition-labels.py",
+    },
   ];
 
 export default tableData;
