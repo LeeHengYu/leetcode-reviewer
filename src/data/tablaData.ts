@@ -699,6 +699,20 @@ const tableData: Question[] = [
       difficulty: "Easy",
       solution: "counting-bits.py",
     },
+    {
+      question: "Pow(x, n)",
+      link: "https://leetcode.com/problems/powx-n/",
+      category: "Math",
+      difficulty: "Medium",
+      solution: "powx-n.py",
+    },
+    {
+      question: "Unique Length-3 Palindromic Subsequences",
+      link: "https://leetcode.com/problems/unique-length-3-palindromic-subsequences/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "unique-length-3-palindromic-subsequences.py",
+    },
   ];
 
 export default tableData;
