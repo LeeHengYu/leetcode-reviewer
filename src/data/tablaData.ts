@@ -713,6 +713,20 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "unique-length-3-palindromic-subsequences.py",
     },
+    {
+      question: "Valid Palindrome II",
+      link: "https://leetcode.com/problems/valid-palindrome-ii/",
+      category: "Pointers",
+      difficulty: "Easy",
+      solution: "valid-palindrome-ii.py",
+    },
+    {
+      question: "Count Good Nodes in Binary Tree",
+      link: "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+      category: "Tree",
+      difficulty: "Medium",
+      solution: "count-good-nodes-in-binary-tree.py",
+    },
   ];
 
 export default tableData;
