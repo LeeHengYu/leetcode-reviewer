@@ -692,6 +692,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "partition-labels.py",
     },
+    {
+      question: "Counting Bits",
+      link: "https://leetcode.com/problems/counting-bits/",
+      category: "Dynamic Programming",
+      difficulty: "Easy",
+      solution: "counting-bits.py",
+    },
   ];
 
 export default tableData;
