@@ -670,6 +670,21 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "minimum-index-of-a-valid-split.py",
     },
+    {
+      question: "Add Two Numbers II",
+      link: "https://leetcode.com/problems/add-two-numbers-ii/",
+      category: "Linked List",
+      difficulty: "Medium",
+      solution: "add-two-numbers-ii.py",
+      dailyChallenge: new Date("2023-07-17"),
+    },
+    {
+      question: "Length of the Longest Valid Substring",
+      link: "https://leetcode.com/problems/length-of-the-longest-valid-substring/",
+      category: "Sliding Window",
+      difficulty: "Hard",
+      solution: "length-of-the-longest-valid-substring.py",
+    },
   ];
 
 export default tableData;
