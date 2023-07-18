@@ -735,6 +735,13 @@ const tableData: Question[] = [
       solution: "lru-cache.py",
       dailyChallenge: new Date("2023-07-18"),
     },
+    {
+      question: "Longest Palindromic Subsequence",
+      link: "https://leetcode.com/problems/longest-palindromic-subsequence/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "longest-palindromic-subsequence.py",
+    },
   ];
 
 export default tableData;
