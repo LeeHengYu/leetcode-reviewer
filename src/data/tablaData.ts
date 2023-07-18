@@ -742,6 +742,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "longest-palindromic-subsequence.py",
     },
+    {
+      question: "Longest Common Subsequence",
+      link: "https://leetcode.com/problems/longest-common-subsequence/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "longest-common-subsequence.py",
+    },
   ];
 
 export default tableData;
