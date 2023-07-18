@@ -727,6 +727,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "count-good-nodes-in-binary-tree.py",
     },
+    {
+      question: "LRU Cache",
+      link: "https://leetcode.com/problems/lru-cache/",
+      category: "Linked List",
+      difficulty: "Medium",
+      solution: "lru-cache.py",
+      dailyChallenge: new Date("2023-07-18"),
+    },
   ];
 
 export default tableData;
