@@ -749,6 +749,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "longest-common-subsequence.py",
     },
+    {
+      question: "Reverse Linked List",
+      link: "https://leetcode.com/problems/reverse-linked-list/",
+      category: "Linked List",
+      difficulty: "Easy",
+      solution: "reverse-linked-list.py",
+    },
   ];
 
 export default tableData;
