@@ -619,6 +619,7 @@ const tableData: Question[] = [
       category: "Interval",
       difficulty: "Medium",
       solution: "non-overlapping-intervals.py",
+      dailyChallenge: new Date("2023-07-19")
     },
     {
       question: "Number of Subsequences That Satisfy the Given Sum Condition",
