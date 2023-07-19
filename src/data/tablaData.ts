@@ -764,6 +764,13 @@ const tableData: Question[] = [
       difficulty: "Easy",
       solution: "best-time-to-buy-and-sell-stock.py",
     },
+    {
+      question: "Distinct Prime Factors of Product of Array",
+      link: "https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/",
+      category: "Math",
+      difficulty: "Medium",
+      solution: "distinct-prime-factors-of-product-of-array.py",
+    },
   ];
 
 export default tableData;
