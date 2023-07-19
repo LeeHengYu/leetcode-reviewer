@@ -757,6 +757,13 @@ const tableData: Question[] = [
       difficulty: "Easy",
       solution: "reverse-linked-list.py",
     },
+    {
+      question: "Best Time to Buy and Sell Stock",
+      link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      category: "Greedy",
+      difficulty: "Easy",
+      solution: "best-time-to-buy-and-sell-stock.py",
+    },
   ];
 
 export default tableData;
