@@ -777,6 +777,7 @@ const tableData: Question[] = [
       category: "Stack",
       difficulty: "Medium",
       solution: "asteroid-collision.py",
+      dailyChallenge: new Date("2023-07-20")
     },
   ];
 
