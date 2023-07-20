@@ -771,6 +771,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "distinct-prime-factors-of-product-of-array.py",
     },
+    {
+      question: "Asteroid Collision",
+      link: "https://leetcode.com/problems/asteroid-collision/",
+      category: "Stack",
+      difficulty: "Medium",
+      solution: "asteroid-collision.py",
+    },
   ];
 
 export default tableData;
