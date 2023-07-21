@@ -787,6 +787,13 @@ const tableData: Question[] = [
       solution: "number-of-longest-increasing-subsequence.py",
       dailyChallenge: new Date("2023-07-21")
     },
+    {
+      question: "Longest Increasing Subsequence",
+      link: "https://leetcode.com/problems/longest-increasing-subsequence/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "longest-increasing-subsequence.py",
+    },
   ];
 
 export default tableData;
