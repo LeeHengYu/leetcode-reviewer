@@ -794,6 +794,20 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "longest-increasing-subsequence.py",
     },
+    {
+      question: "Is Graph Bipartite?",
+      link: "https://leetcode.com/problems/is-graph-bipartite/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "is-graph-bipartite.py",
+    },
+    {
+      question: "Possible Bipartition",
+      link: "https://leetcode.com/problems/possible-bipartition/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "possible-bipartition.py",
+    },
   ];
 
 export default tableData;
