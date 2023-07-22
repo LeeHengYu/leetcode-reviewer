@@ -808,6 +808,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "possible-bipartition.py",
     },
+    {
+      question: "Knight Probability in Chessboard",
+      link: "https://leetcode.com/problems/knight-probability-in-chessboard/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "knight-probability-in-chessboard.py",
+      dailyChallenge: new Date("2023-07-22")
+    },
   ];
 
 export default tableData;
