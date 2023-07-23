@@ -816,6 +816,21 @@ const tableData: Question[] = [
       solution: "knight-probability-in-chessboard.py",
       dailyChallenge: new Date("2023-07-22")
     },
+    {
+      question: "Minimize Maximum of Array",
+      link: "https://leetcode.com/problems/minimize-maximum-of-array/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "minimize-maximum-of-array.py",
+    },
+    {
+      question: "All Possible Full Binary Trees",
+      link: "https://leetcode.com/problems/all-possible-full-binary-trees/",
+      category: "Tree",
+      difficulty: "Medium",
+      solution: "all-possible-full-binary-trees.py",
+      dailyChallenge: new Date("2023-07-23")
+    },
   ];
 
 export default tableData;
