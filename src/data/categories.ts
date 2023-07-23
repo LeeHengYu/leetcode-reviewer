@@ -15,6 +15,7 @@ const category = [
     "Advanced Graph",
     "Interval",
     "Bit Manipulation",
+    "Sliding Window",
 ]
 
 export default category;
