@@ -831,6 +831,13 @@ const tableData: Question[] = [
       solution: "all-possible-full-binary-trees.py",
       dailyChallenge: new Date("2023-07-23")
     },
+    {
+      question: "Number of Enclaves",
+      link: "https://leetcode.com/problems/number-of-enclaves/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "number-of-enclaves.py",
+    },
   ];
 
 export default tableData;
