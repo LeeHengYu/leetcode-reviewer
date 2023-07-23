@@ -838,6 +838,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "number-of-enclaves.py",
     },
+    {
+      question: "Fruit Into Baskets",
+      link: "https://leetcode.com/problems/fruit-into-baskets/",
+      category: "Sliding Window",
+      difficulty: "Medium",
+      solution: "fruit-into-baskets.py",
+    },
   ];
 
 export default tableData;
