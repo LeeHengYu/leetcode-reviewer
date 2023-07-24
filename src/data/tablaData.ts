@@ -706,6 +706,7 @@ const tableData: Question[] = [
       category: "Math",
       difficulty: "Medium",
       solution: "powx-n.py",
+      dailyChallenge: new Date("2023-07-24")
     },
     {
       question: "Unique Length-3 Palindromic Subsequences",
