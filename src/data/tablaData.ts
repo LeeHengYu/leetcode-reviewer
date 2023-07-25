@@ -852,6 +852,7 @@ const tableData: Question[] = [
       category: "Binary Search",
       difficulty: "Medium",
       solution: "peak-index-in-a-mountain-array.py",
+      dailyChallenge: new Date("2023-07-25")
     },
   ];
 
