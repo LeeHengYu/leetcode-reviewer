@@ -846,6 +846,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "fruit-into-baskets.py",
     },
+    {
+      question: "Peak Index in a Mountain Array",
+      link: "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+      category: "Binary Search",
+      difficulty: "Medium",
+      solution: "peak-index-in-a-mountain-array.py",
+    },
   ];
 
 export default tableData;
