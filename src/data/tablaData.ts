@@ -854,6 +854,14 @@ const tableData: Question[] = [
       solution: "peak-index-in-a-mountain-array.py",
       dailyChallenge: new Date("2023-07-25")
     },
+    {
+      question: "Minimum Speed to Arrive on Time",
+      link: "https://leetcode.com/problems/minimum-speed-to-arrive-on-time/",
+      category: "Binary Search",
+      difficulty: "Medium",
+      solution: "minimum-speed-to-arrive-on-time.py",
+      dailyChallenge: new Date("2023-07-26")
+    },
   ];
 
 export default tableData;
