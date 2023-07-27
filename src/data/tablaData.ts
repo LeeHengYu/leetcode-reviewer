@@ -862,6 +862,14 @@ const tableData: Question[] = [
       solution: "minimum-speed-to-arrive-on-time.py",
       dailyChallenge: new Date("2023-07-26")
     },
+    {
+      question: "Maximum Running Time of N Computers",
+      link: "https://leetcode.com/problems/maximum-running-time-of-n-computers/",
+      category: "Binary Search",
+      difficulty: "Hard",
+      solution: "maximum-running-time-of-n-computers.py",
+      dailyChallenge: new Date("2023-07-27")
+    },
   ];
 
 export default tableData;
