@@ -870,6 +870,14 @@ const tableData: Question[] = [
       solution: "maximum-running-time-of-n-computers.py",
       dailyChallenge: new Date("2023-07-27")
     },
+    {
+      question: "Predict the Winner",
+      link: "https://leetcode.com/problems/predict-the-winner/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "predict-the-winner.py",
+      dailyChallenge: new Date("2023-07-28")
+    },
   ];
 
 export default tableData;
