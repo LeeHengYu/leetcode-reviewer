@@ -878,6 +878,14 @@ const tableData: Question[] = [
       solution: "predict-the-winner.py",
       dailyChallenge: new Date("2023-07-28")
     },
+    {
+      question: "Soup Servings",
+      link: "https://leetcode.com/problems/soup-servings/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "soup-servings.py",
+      dailyChallenge: new Date("2023-07-29")
+    },
   ];
 
 export default tableData;
