@@ -901,6 +901,13 @@ const tableData: Question[] = [
       difficulty: "Easy",
       solution: "invert-binary-tree.py",
     },
+    {
+      question: "Shortest Completing Word",
+      link: "https://leetcode.com/problems/shortest-completing-word/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "shortest-completing-word.py",
+    },
   ];
 
 export default tableData;
