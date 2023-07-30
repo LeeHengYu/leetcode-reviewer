@@ -886,6 +886,14 @@ const tableData: Question[] = [
       solution: "soup-servings.py",
       dailyChallenge: new Date("2023-07-29")
     },
+    {
+      question: "Strange Printer",
+      link: "https://leetcode.com/problems/strange-printer/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "strange-printer.py",
+      dailyChallenge: new Date("2023-07-30")
+    },
   ];
 
 export default tableData;
