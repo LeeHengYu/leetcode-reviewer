@@ -894,6 +894,13 @@ const tableData: Question[] = [
       solution: "strange-printer.py",
       dailyChallenge: new Date("2023-07-30")
     },
+    {
+      question: "Invert Binary Tree",
+      link: "https://leetcode.com/problems/invert-binary-tree/",
+      category: "Tree",
+      difficulty: "Easy",
+      solution: "invert-binary-tree.py",
+    },
   ];
 
 export default tableData;
