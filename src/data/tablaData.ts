@@ -916,6 +916,13 @@ const tableData: Question[] = [
       solution: "minimum-ascii-delete-sum-for-two-strings.py",
       dailyChallenge: new Date("2023-07-31")
     },
+    {
+      question: "Degree of an Array",
+      link: "https://leetcode.com/problems/degree-of-an-array/",
+      category: "Sliding Window",
+      difficulty: "Easy",
+      solution: "degree-of-an-array.py",
+    },
   ];
 
 export default tableData;
