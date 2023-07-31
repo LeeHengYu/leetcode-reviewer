@@ -908,6 +908,14 @@ const tableData: Question[] = [
       difficulty: "Easy",
       solution: "shortest-completing-word.py",
     },
+    {
+      question: "Minimum ASCII Delete Sum for Two Strings",
+      link: "https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "minimum-ascii-delete-sum-for-two-strings.py",
+      dailyChallenge: new Date("2023-07-31")
+    },
   ];
 
 export default tableData;
