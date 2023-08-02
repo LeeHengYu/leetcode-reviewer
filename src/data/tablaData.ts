@@ -400,6 +400,7 @@ const tableData: Question[] = [
       difficulty: "Medium",
       category: "Backtracking",
       solution: "combinations.py",
+      dailyChallenge: new Date("2023-08-01"),
     },
     {
       question: "Maximize the Confusion of an Exam",
@@ -922,6 +923,14 @@ const tableData: Question[] = [
       category: "Sliding Window",
       difficulty: "Easy",
       solution: "degree-of-an-array.py",
+    },
+    {
+      question: "Permutations",
+      link: "https://leetcode.com/problems/permutations/",
+      category: "Backtracking",
+      difficulty: "Medium",
+      solution: "permutations.py",
+      dailyChallenge: new Date("2023-08-02")
     },
   ];
 
