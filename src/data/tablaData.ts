@@ -932,6 +932,14 @@ const tableData: Question[] = [
       solution: "permutations.py",
       dailyChallenge: new Date("2023-08-02")
     },
+    {
+      question: "Letter Combinations of a Phone Number",
+      link: "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+      category: "Backtracking",
+      difficulty: "Medium",
+      solution: "letter-combinations-of-a-phone-number.py",
+      dailyChallenge: new Date("2023-08-03")
+    },
   ];
 
 export default tableData;
