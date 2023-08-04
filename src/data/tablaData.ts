@@ -941,7 +941,7 @@ const tableData: Question[] = [
       dailyChallenge: new Date("2023-08-03")
     },
     {
-      question: "Letter Combinations of a Phone Number",
+      question: "Word Break",
       link: "https://leetcode.com/problems/word-break/",
       category: "Dynamic Programming",
       difficulty: "Medium",
