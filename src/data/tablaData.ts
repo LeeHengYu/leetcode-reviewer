@@ -948,6 +948,13 @@ const tableData: Question[] = [
       solution: "word-break.py",
       dailyChallenge: new Date("2023-08-04")
     },
+    {
+      question: "Restore IP Addresses",
+      link: "https://leetcode.com/problems/restore-ip-addresses/",
+      category: "Backtracking",
+      difficulty: "Medium",
+      solution: "restore-ip-addresses.py",
+    },
   ];
 
 export default tableData;
