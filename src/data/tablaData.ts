@@ -940,6 +940,14 @@ const tableData: Question[] = [
       solution: "letter-combinations-of-a-phone-number.py",
       dailyChallenge: new Date("2023-08-03")
     },
+    {
+      question: "Letter Combinations of a Phone Number",
+      link: "https://leetcode.com/problems/word-break/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "word-break.py",
+      dailyChallenge: new Date("2023-08-04")
+    },
   ];
 
 export default tableData;
