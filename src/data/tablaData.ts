@@ -963,6 +963,13 @@ const tableData: Question[] = [
       solution: "unique-binary-search-trees-ii.py",
       dailyChallenge: new Date("2023-08-05")
     },
+    {
+      question: "Unique Binary Search Trees",
+      link: "https://leetcode.com/problems/unique-binary-search-trees/",
+      category: "Tree",
+      difficulty: "Medium",
+      solution: "unique-binary-search-trees.py",
+    },
   ];
 
 export default tableData;
