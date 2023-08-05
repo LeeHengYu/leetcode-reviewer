@@ -970,6 +970,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "unique-binary-search-trees.py",
     },
+    {
+      question: "Best Time to Buy and Sell Stock with Cooldown",
+      link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "best-time-to-buy-and-sell-stock-with-cooldown.py",
+    },
   ];
 
 export default tableData;
