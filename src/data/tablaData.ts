@@ -955,6 +955,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "restore-ip-addresses.py",
     },
+    {
+      question: "Unique Binary Search Trees II",
+      link: "https://leetcode.com/problems/unique-binary-search-trees-ii/",
+      category: "Tree",
+      difficulty: "Medium",
+      solution: "unique-binary-search-trees-ii.py",
+      dailyChallenge: new Date("2023-08-05")
+    },
   ];
 
 export default tableData;
