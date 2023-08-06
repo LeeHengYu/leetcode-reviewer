@@ -977,6 +977,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "best-time-to-buy-and-sell-stock-with-cooldown.py",
     },
+    {
+      question: "Number of Music Playlists",
+      link: "https://leetcode.com/problems/number-of-music-playlists/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "number-of-music-playlists.py",
+      dailyChallenge: new Date("2023-08-06")
+    },
   ];
 
 export default tableData;
