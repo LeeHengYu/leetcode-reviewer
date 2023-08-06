@@ -985,6 +985,27 @@ const tableData: Question[] = [
       solution: "number-of-music-playlists.py",
       dailyChallenge: new Date("2023-08-06")
     },
+    {
+      question: "Faulty Keyboard",
+      link: "https://leetcode.com/problems/faulty-keyboard/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "faulty-keyboard.py",
+    },
+    {
+      question: "Check if it is Possible to Split Array",
+      link: "https://leetcode.com/problems/check-if-it-is-possible-to-split-array/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "check-if-it-is-possible-to-split-array.py",
+    },
+    {
+      question: "Find the Safest Path in a Grid",
+      link: "https://leetcode.com/problems/find-the-safest-path-in-a-grid/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "find-the-safest-path-in-a-grid.py",
+    },
   ];
 
 export default tableData;
