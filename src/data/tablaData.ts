@@ -1006,6 +1006,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "find-the-safest-path-in-a-grid.py",
     },
+    {
+      question: "Search a 2D Matrix",
+      link: "https://leetcode.com/problems/search-a-2d-matrix/",
+      category: "Binary Search",
+      difficulty: "Medium",
+      solution: "search-a-2d-matrix.py",
+      dailyChallenge: new Date("2023-08-07")
+    },
   ];
 
 export default tableData;
