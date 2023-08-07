@@ -1014,6 +1014,20 @@ const tableData: Question[] = [
       solution: "search-a-2d-matrix.py",
       dailyChallenge: new Date("2023-08-07")
     },
+    {
+      question: "Count Primes",
+      link: "https://leetcode.com/problems/count-primes/",
+      category: "Math",
+      difficulty: "Medium",
+      solution: "count-primes.py",
+    },
+    {
+      question: "Combination Sum III",
+      link: "https://leetcode.com/problems/combination-sum-iii/",
+      category: "Backtracking",
+      difficulty: "Medium",
+      solution: "combination-sum-iii.py",
+    },
   ];
 
 export default tableData;
