@@ -1034,6 +1034,7 @@ const tableData: Question[] = [
       category: "Binary Search",
       difficulty: "Medium",
       solution: "search-in-rotated-sorted-array.py",
+      dailyChallenge: new Date("2023-08-08")
     },
   ];
 
