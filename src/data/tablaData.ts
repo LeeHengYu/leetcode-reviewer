@@ -1028,6 +1028,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "combination-sum-iii.py",
     },
+    {
+      question: "Search in Rotated Sorted Array",
+      link: "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      category: "Binary Search",
+      difficulty: "Medium",
+      solution: "search-in-rotated-sorted-array.py",
+    },
   ];
 
 export default tableData;
