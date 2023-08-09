@@ -1039,7 +1039,7 @@ const tableData: Question[] = [
     {
       question: "Minimize the Maximum Difference of Pairs",
       link: "https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/",
-      category: "Binary Search",
+      category: "Greedy",
       difficulty: "Medium",
       solution: "minimize-the-maximum-difference-of-pairs.py",
       dailyChallenge: new Date("2023-08-09")
