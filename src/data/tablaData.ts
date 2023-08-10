@@ -1052,6 +1052,13 @@ const tableData: Question[] = [
       solution: "search-in-rotated-sorted-array-ii.py",
       dailyChallenge: new Date("2023-08-10")
     },
+    {
+      question: "Path Sum III",
+      link: "https://leetcode.com/problems/path-sum-iii/",
+      category: "Tree",
+      difficulty: "Medium",
+      solution: "path-sum-iii.py",
+    },
   ];
 
 export default tableData;
