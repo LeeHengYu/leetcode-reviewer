@@ -1044,6 +1044,14 @@ const tableData: Question[] = [
       solution: "minimize-the-maximum-difference-of-pairs.py",
       dailyChallenge: new Date("2023-08-09")
     },
+    {
+      question: "Search in Rotated Sorted Array II",
+      link: "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+      category: "Binary Search",
+      difficulty: "Medium",
+      solution: "search-in-rotated-sorted-array-ii.py",
+      dailyChallenge: new Date("2023-08-10")
+    },
   ];
 
 export default tableData;
