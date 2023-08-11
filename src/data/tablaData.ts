@@ -1059,6 +1059,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "path-sum-iii.py",
     },
+    {
+      question: "Coin Change II",
+      link: "https://leetcode.com/problems/coin-change-ii/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "coin-change-ii.py",
+      dailyChallenge: new Date("2023-08-11")
+    },
   ];
 
 export default tableData;
