@@ -1067,6 +1067,14 @@ const tableData: Question[] = [
       solution: "coin-change-ii.py",
       dailyChallenge: new Date("2023-08-11")
     },
+    {
+      question: "Unique Path II",
+      link: "https://leetcode.com/problems/unique-path-ii/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "unique-path-ii.py",
+      dailyChallenge: new Date("2023-08-12")
+    },
   ];
 
 export default tableData;
