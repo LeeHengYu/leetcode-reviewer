@@ -1075,6 +1075,14 @@ const tableData: Question[] = [
       solution: "unique-path-ii.py",
       dailyChallenge: new Date("2023-08-12")
     },
+    {
+      question: "Check if There is a Valid Partition For The Array",
+      link: "https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "check-if-there-is-a-valid-partition-for-the-array.py",
+      dailyChallenge: new Date("2023-08-13")
+    },
   ];
 
 export default tableData;
