@@ -1083,6 +1083,14 @@ const tableData: Question[] = [
       solution: "check-if-there-is-a-valid-partition-for-the-array.py",
       dailyChallenge: new Date("2023-08-13")
     },
+    {
+      question: "Kth Largest Element in an Array",
+      link: "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      difficulty: "Medium",
+      category: "Heap / Priority Queue",
+      solution: "kth-largest-element-in-an-array.py",
+      dailyChallenge: new Date("2023-08-14")
+    },
   ];
 
 export default tableData;
