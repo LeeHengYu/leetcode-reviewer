@@ -1091,6 +1091,14 @@ const tableData: Question[] = [
       solution: "kth-largest-element-in-an-array.py",
       dailyChallenge: new Date("2023-08-14")
     },
+    {
+      question: "Partition List",
+      link: "https://leetcode.com/problems/partition-list/",
+      difficulty: "Medium",
+      category: "Linked List",
+      solution: "partition-list.py",
+      dailyChallenge: new Date("2023-08-15")
+    },
   ];
 
 export default tableData;
