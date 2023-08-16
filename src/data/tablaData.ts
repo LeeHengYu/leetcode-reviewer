@@ -1099,6 +1099,14 @@ const tableData: Question[] = [
       solution: "partition-list.py",
       dailyChallenge: new Date("2023-08-15")
     },
+    {
+      question: "Sliding Window Maximum",
+      link: "https://leetcode.com/problems/sliding-window-maximum/",
+      difficulty: "Medium",
+      category: "Stack",
+      solution: "sliding-window-maximum.py",
+      dailyChallenge: new Date("2023-08-16")
+    },
   ];
 
 export default tableData;
