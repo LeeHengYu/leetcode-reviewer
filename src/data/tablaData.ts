@@ -1102,7 +1102,7 @@ const tableData: Question[] = [
     {
       question: "Sliding Window Maximum",
       link: "https://leetcode.com/problems/sliding-window-maximum/",
-      difficulty: "Medium",
+      difficulty: "Hard",
       category: "Stack",
       solution: "sliding-window-maximum.py",
       dailyChallenge: new Date("2023-08-16")
