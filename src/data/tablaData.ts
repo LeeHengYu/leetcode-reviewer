@@ -1107,6 +1107,14 @@ const tableData: Question[] = [
       solution: "sliding-window-maximum.py",
       dailyChallenge: new Date("2023-08-16")
     },
+    {
+      question: "01 Matrix",
+      link: "https://leetcode.com/problems/01-matrix/",
+      difficulty: "Medium",
+      category: "Graph",
+      solution: "01-matrix.py",
+      dailyChallenge: new Date("2023-08-17")
+    },
   ];
 
 export default tableData;
