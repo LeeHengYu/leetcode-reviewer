@@ -1115,6 +1115,14 @@ const tableData: Question[] = [
       solution: "01-matrix.py",
       dailyChallenge: new Date("2023-08-17")
     },
+    {
+      question: "Maximal Network Rank",
+      link: "https://leetcode.com/problems/maximal-network-rank/",
+      difficulty: "Medium",
+      category: "Graph",
+      solution: "maximal-network-rank.py",
+      dailyChallenge: new Date("2023-08-18")
+    },
   ];
 
 export default tableData;
