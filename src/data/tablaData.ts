@@ -1131,6 +1131,13 @@ const tableData: Question[] = [
       solution: "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree.py",
       dailyChallenge: new Date("2023-08-19")
     },
+    {
+      question: "Sorting Three Groups",
+      link: "https://leetcode.com/problems/sorting-three-groups/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "sorting-three-groups.py",
+    },
   ];
 
 export default tableData;
