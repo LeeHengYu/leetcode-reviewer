@@ -1123,6 +1123,14 @@ const tableData: Question[] = [
       solution: "maximal-network-rank.py",
       dailyChallenge: new Date("2023-08-18")
     },
+    {
+      question: "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+      link: "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/",
+      difficulty: "Hard",
+      category: "Graph",
+      solution: "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree.py",
+      dailyChallenge: new Date("2023-08-19")
+    },
   ];
 
 export default tableData;
