@@ -1138,6 +1138,14 @@ const tableData: Question[] = [
       category: "Dynamic Programming",
       solution: "sorting-three-groups.py",
     },
+    {
+      question: "Sort Items by Groups Respecting Dependencies",
+      link: "https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/",
+      difficulty: "Hard",
+      category: "Graph",
+      solution: "sort-items-by-groups-respecting-dependencies.py",
+      dailyChallenge: new Date("2023-08-20")
+    },
   ];
 
 export default tableData;
