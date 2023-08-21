@@ -1146,6 +1146,14 @@ const tableData: Question[] = [
       solution: "sort-items-by-groups-respecting-dependencies.py",
       dailyChallenge: new Date("2023-08-20")
     },
+    {
+      question: "Repeated Substring Pattern",
+      link: "https://leetcode.com/problems/repeated-substring-pattern/",
+      difficulty: "Easy",
+      category: "Arrays & Hashing",
+      solution: "repeated-substring-pattern.py",
+      dailyChallenge: new Date("2023-08-21")
+    },
   ];
 
 export default tableData;
