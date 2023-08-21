@@ -1154,6 +1154,13 @@ const tableData: Question[] = [
       solution: "repeated-substring-pattern.py",
       dailyChallenge: new Date("2023-08-21")
     },
+    {
+      question: "Minimum Number of Days to Make m Bouquets",
+      link: "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+      difficulty: "Medium",
+      category: "Binary Search",
+      solution: "minimum-number-of-days-to-make-m-bouquets.py",
+    },
   ];
 
 export default tableData;
