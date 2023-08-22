@@ -1161,6 +1161,14 @@ const tableData: Question[] = [
       category: "Binary Search",
       solution: "minimum-number-of-days-to-make-m-bouquets.py",
     },
+    {
+      question: "Excel Sheet Column Title",
+      link: "https://leetcode.com/problems/excel-sheet-column-title/",
+      difficulty: "Easy",
+      category: "Math",
+      solution: "excel-sheet-column-title.py",
+      dailyChallenge: new Date("2023-08-22")
+    },
   ];
 
 export default tableData;
