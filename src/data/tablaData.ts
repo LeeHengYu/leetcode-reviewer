@@ -1169,6 +1169,14 @@ const tableData: Question[] = [
       solution: "excel-sheet-column-title.py",
       dailyChallenge: new Date("2023-08-22")
     },
+    {
+      question: "Reorganize String",
+      link: "https://leetcode.com/problems/reorganize-string/",
+      difficulty: "Medium",
+      category: "Heap / Priority Queue",
+      solution: "reorganize-string.py",
+      dailyChallenge: new Date("2023-08-23")
+    },
   ];
 
 export default tableData;
