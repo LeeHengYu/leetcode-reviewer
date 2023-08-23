@@ -933,6 +933,13 @@ const tableData: Question[] = [
       dailyChallenge: new Date("2023-08-02")
     },
     {
+      question: "Permutations II",
+      link: "https://leetcode.com/problems/permutations-ii/",
+      category: "Backtracking",
+      difficulty: "Medium",
+      solution: "permutations-ii.py",
+    },
+    {
       question: "Letter Combinations of a Phone Number",
       link: "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
       category: "Backtracking",
