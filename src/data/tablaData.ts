@@ -1184,6 +1184,14 @@ const tableData: Question[] = [
       solution: "reorganize-string.py",
       dailyChallenge: new Date("2023-08-23")
     },
+    {
+      question: "Text Justification",
+      link: "https://leetcode.com/problems/text-justification/",
+      difficulty: "Hard",
+      category: "Arrays & Hashing",
+      solution: "text-justification.py",
+      dailyChallenge: new Date("2023-08-24")
+    },
   ];
 
 export default tableData;
