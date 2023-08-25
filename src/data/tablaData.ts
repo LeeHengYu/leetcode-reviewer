@@ -1192,6 +1192,14 @@ const tableData: Question[] = [
       solution: "text-justification.py",
       dailyChallenge: new Date("2023-08-24")
     },
+    {
+      question: "Interleaving String",
+      link: "https://leetcode.com/problems/interleaving-string/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "interleaving-string.py",
+      dailyChallenge: new Date("2023-08-25")
+    },
   ];
 
 export default tableData;
