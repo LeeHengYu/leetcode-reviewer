@@ -1200,6 +1200,14 @@ const tableData: Question[] = [
       solution: "interleaving-string.py",
       dailyChallenge: new Date("2023-08-25")
     },
+    {
+      question: "Maximum Length of Pair Chain",
+      link: "https://leetcode.com/problems/maximum-length-of-pair-chain/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "maximum-length-of-pair-chain.py",
+      dailyChallenge: new Date("2023-08-26")
+    },
   ];
 
 export default tableData;
