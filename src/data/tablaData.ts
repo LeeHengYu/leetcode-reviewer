@@ -1208,6 +1208,14 @@ const tableData: Question[] = [
       solution: "maximum-length-of-pair-chain.py",
       dailyChallenge: new Date("2023-08-26")
     },
+    {
+      question: "Frog Jump",
+      link: "https://leetcode.com/problems/frog-jump/",
+      difficulty: "Hard",
+      category: "Dynamic Programming",
+      solution: "frog-jump.py",
+      dailyChallenge: new Date("2023-08-27")
+    },
   ];
 
 export default tableData;
