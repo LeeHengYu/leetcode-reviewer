@@ -1216,6 +1216,14 @@ const tableData: Question[] = [
       solution: "frog-jump.py",
       dailyChallenge: new Date("2023-08-27")
     },
+    {
+      question: "Implement Stack using Queues",
+      link: "https://leetcode.com/problems/implement-stack-using-queues/",
+      difficulty: "Easy",
+      category: "Arrays & Hashing",
+      solution: "implement-stack-using-queues.py",
+      dailyChallenge: new Date("2023-08-28")
+    },
   ];
 
 export default tableData;
