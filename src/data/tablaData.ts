@@ -1232,6 +1232,13 @@ const tableData: Question[] = [
       solution: "minimum-penalty-for-a-shop.py",
       dailyChallenge: new Date("2023-08-29")
     },
+    {
+      question: "Super Egg Drop",
+      link: "https://leetcode.com/problems/super-egg-drop/",
+      difficulty: "Hard",
+      category: "Dynamic Programming",
+      solution: "super-egg-drop.py",
+    },
   ];
 
 export default tableData;
