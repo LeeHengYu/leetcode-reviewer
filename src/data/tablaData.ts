@@ -1224,6 +1224,14 @@ const tableData: Question[] = [
       solution: "implement-stack-using-queues.py",
       dailyChallenge: new Date("2023-08-28")
     },
+    {
+      question: "Minimum Penalty for a Shop",
+      link: "https://leetcode.com/problems/minimum-penalty-for-a-shop/",
+      difficulty: "Medium",
+      category: "Greedy",
+      solution: "minimum-penalty-for-a-shop.py",
+      dailyChallenge: new Date("2023-08-29")
+    },
   ];
 
 export default tableData;
