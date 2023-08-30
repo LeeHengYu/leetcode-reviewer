@@ -1239,6 +1239,14 @@ const tableData: Question[] = [
       category: "Dynamic Programming",
       solution: "super-egg-drop.py",
     },
+    {
+      question: "Minimum Replacements to Sort the Array",
+      link: "https://leetcode.com/problems/minimum-replacements-to-sort-the-array/",
+      difficulty: "Hard",
+      category: "Greedy",
+      solution: "minimum-replacements-to-sort-the-array.py",
+      dailyChallenge: new Date("2023-08-30")
+    },
   ];
 
 export default tableData;
