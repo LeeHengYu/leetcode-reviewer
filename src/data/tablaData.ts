@@ -1247,6 +1247,14 @@ const tableData: Question[] = [
       solution: "minimum-replacements-to-sort-the-array.py",
       dailyChallenge: new Date("2023-08-30")
     },
+    {
+      question: "Minimum Number of Taps to Open to Water a Garden",
+      link: "https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/",
+      difficulty: "Hard",
+      category: "Dynamic Programming",
+      solution: "minimum-number-of-taps-to-open-to-water-a-garden.py",
+      dailyChallenge: new Date("2023-08-31")
+    },
   ];
 
 export default tableData;
