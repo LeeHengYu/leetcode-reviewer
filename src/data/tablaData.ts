@@ -1249,7 +1249,7 @@ const tableData: Question[] = [
       dailyChallenge: new Date("2023-08-31")
     },
     {
-      question: "Minimum Number of Taps to Open to Water a Garden",
+      question: "Counting Bits",
       link: "https://leetcode.com/problems/counting-bits/",
       difficulty: "Easy",
       category: "Dynamic Programming",
