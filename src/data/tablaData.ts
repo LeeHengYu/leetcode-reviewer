@@ -1255,6 +1255,14 @@ const tableData: Question[] = [
       solution: "minimum-number-of-taps-to-open-to-water-a-garden.py",
       dailyChallenge: new Date("2023-08-31")
     },
+    {
+      question: "Minimum Number of Taps to Open to Water a Garden",
+      link: "https://leetcode.com/problems/counting-bits/",
+      difficulty: "Easy",
+      category: "Dynamic Programming",
+      solution: "counting-bits.py",
+      dailyChallenge: new Date("2023-09-01")
+    },
   ];
 
 export default tableData;
