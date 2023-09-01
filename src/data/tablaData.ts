@@ -695,13 +695,6 @@ const tableData: Question[] = [
       solution: "partition-labels.py",
     },
     {
-      question: "Counting Bits",
-      link: "https://leetcode.com/problems/counting-bits/",
-      category: "Dynamic Programming",
-      difficulty: "Easy",
-      solution: "counting-bits.py",
-    },
-    {
       question: "Pow(x, n)",
       link: "https://leetcode.com/problems/powx-n/",
       category: "Math",
