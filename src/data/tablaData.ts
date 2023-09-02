@@ -1256,6 +1256,14 @@ const tableData: Question[] = [
       solution: "counting-bits.py",
       dailyChallenge: new Date("2023-09-01")
     },
+    {
+      question: "Extra Characters in a String",
+      link: "https://leetcode.com/problems/extra-characters-in-a-string/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "extra-characters-in-a-string.py",
+      dailyChallenge: new Date("2023-09-02")
+    },
   ];
 
 export default tableData;
