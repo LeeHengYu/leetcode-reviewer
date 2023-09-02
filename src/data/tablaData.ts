@@ -287,13 +287,6 @@ const tableData: Question[] = [
       solution: "all-divisions-with-the-highest-score-of-a-binary-array.py",
     },
     {
-      question: "Extra Characters in a String",
-      link: "https://leetcode.com/problems/extra-characters-in-a-string/",
-      difficulty: "Medium",
-      category: "Dynamic Programming",
-      solution: "extra-characters-in-a-string.py",
-    },
-    {
       question: "Find K Pairs with Smallest Sums",
       link: "https://leetcode.com/problems/find-k-pairs-with-smallest-sums/",
       difficulty: "Medium",
