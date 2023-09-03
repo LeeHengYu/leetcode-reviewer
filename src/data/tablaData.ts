@@ -1257,6 +1257,14 @@ const tableData: Question[] = [
       solution: "extra-characters-in-a-string.py",
       dailyChallenge: new Date("2023-09-02")
     },
+    {
+      question: "Unique Path",
+      link: "https://leetcode.com/problems/unique-path/",
+      difficulty: "Medium",
+      category: "Dynamic Programming",
+      solution: "unique-path.py",
+      dailyChallenge: new Date("2023-09-03")
+    },
   ];
 
 export default tableData;
