@@ -1265,6 +1265,14 @@ const tableData: Question[] = [
       solution: "unique-path.py",
       dailyChallenge: new Date("2023-09-03")
     },
+    {
+      question: "Linked List Cycle",
+      link: "https://leetcode.com/problems/linked-list-cycle/",
+      difficulty: "Easy",
+      category: "Linked List",
+      solution: "linked-list-cycle.py",
+      dailyChallenge: new Date("2023-09-04")
+    },
   ];
 
 export default tableData;
