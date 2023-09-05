@@ -1273,6 +1273,14 @@ const tableData: Question[] = [
       solution: "linked-list-cycle.py",
       dailyChallenge: new Date("2023-09-04")
     },
+    {
+      question: "Copy List With Random Pointer",
+      link: "https://leetcode.com/problems/copy-list-with-random-pointer/",
+      difficulty: "Medium",
+      category: "Linked List",
+      solution: "copy-list-with-random-pointer.py",
+      dailyChallenge: new Date("2023-09-05")
+    },
   ];
 
 export default tableData;
