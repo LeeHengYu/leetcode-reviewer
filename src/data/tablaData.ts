@@ -1281,6 +1281,14 @@ const tableData: Question[] = [
       solution: "copy-list-with-random-pointer.py",
       dailyChallenge: new Date("2023-09-05")
     },
+    {
+      question: "Split Linked List in Parts",
+      link: "https://leetcode.com/problems/split-linked-list-in-parts/",
+      difficulty: "Medium",
+      category: "Linked List",
+      solution: "split-linked-list-in-parts.py",
+      dailyChallenge: new Date("2023-09-06")
+    },
   ];
 
 export default tableData;
