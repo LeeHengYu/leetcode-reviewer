@@ -1289,6 +1289,14 @@ const tableData: Question[] = [
       solution: "split-linked-list-in-parts.py",
       dailyChallenge: new Date("2023-09-06")
     },
+    {
+      question: "Reverse Linked List II",
+      link: "https://leetcode.com/problems/reverse-linked-list-ii/",
+      category: "Linked List",
+      difficulty: "Medium",
+      solution: "reverse-linked-list-ii.py",
+      dailyChallenge: new Date("2023-09-07")
+    },
   ];
 
 export default tableData;
