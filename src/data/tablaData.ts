@@ -1297,6 +1297,14 @@ const tableData: Question[] = [
       solution: "reverse-linked-list-ii.py",
       dailyChallenge: new Date("2023-09-07")
     },
+    {
+      question: "Pascal's Triangle",
+      link: "https://leetcode.com/problems/pascals-triangle/",
+      category: "Dynamic Programming",
+      difficulty: "Easy",
+      solution: "pascals-triangle.py",
+      dailyChallenge: new Date("2023-09-08")
+    },
   ];
 
 export default tableData;
