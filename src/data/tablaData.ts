@@ -1311,6 +1311,7 @@ const tableData: Question[] = [
       category: "Dynamic Programming",
       difficulty: "Medium",
       solution: "combination-sum-iv.py",
+      dailyChallenge: new Date("2023-09-09")
     },
   ];
 
