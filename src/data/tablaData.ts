@@ -1305,6 +1305,13 @@ const tableData: Question[] = [
       solution: "pascals-triangle.py",
       dailyChallenge: new Date("2023-09-08")
     },
+    {
+      question: "Combination Sum IV",
+      link: "https://leetcode.com/problems/combination-sum-iv/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "combination-sum-iv.py",
+    },
   ];
 
 export default tableData;
