@@ -1313,6 +1313,14 @@ const tableData: Question[] = [
       solution: "combination-sum-iv.py",
       dailyChallenge: new Date("2023-09-09")
     },
+    {
+      question: "Count All Valid Pickup and Delivery Options",
+      link: "https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "count-all-valid-pickup-and-delivery-options.py",
+      dailyChallenge: new Date("2023-09-10")
+    },
   ];
 
 export default tableData;
