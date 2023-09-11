@@ -1321,6 +1321,14 @@ const tableData: Question[] = [
       solution: "count-all-valid-pickup-and-delivery-options.py",
       dailyChallenge: new Date("2023-09-10")
     },
+    {
+      question: "Group the People Given the Group Size They Belong To",
+      link: "https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "group-the-people-given-the-group-size-they-belong-to.py",
+      dailyChallenge: new Date("2023-09-11")
+    },
   ];
 
 export default tableData;
