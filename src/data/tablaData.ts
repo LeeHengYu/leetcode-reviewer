@@ -1337,6 +1337,14 @@ const tableData: Question[] = [
       solution: "minimum-deletions-to-make-character-frequencies-unique.py",
       dailyChallenge: new Date("2023-09-12")
     },
+    {
+      question: "Candy",
+      link: "https://leetcode.com/problems/candy/",
+      category: "Greedy",
+      difficulty: "Hard",
+      solution: "candy.py",
+      dailyChallenge: new Date("2023-09-13")
+    },
   ];
 
 export default tableData;
