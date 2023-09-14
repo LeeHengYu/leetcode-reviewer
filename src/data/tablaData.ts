@@ -592,6 +592,7 @@ const tableData: Question[] = [
       category: "Advanced Graph",
       difficulty: "Hard",
       solution: "reconstruct-itinerary.py",
+      dailyChallenge: new Date("2023-09-14")
     },
     {
       question: "Construct Binary Tree from Preorder and Inorder Traversal",
