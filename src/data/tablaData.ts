@@ -1346,6 +1346,14 @@ const tableData: Question[] = [
       solution: "candy.py",
       dailyChallenge: new Date("2023-09-13")
     },
+    {
+      question: "Min Cost to Connect All Points",
+      link: "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+      category: "Advanced Graph",
+      difficulty: "Medium",
+      solution: "min-cost-to-connect-all-points.py",
+      dailyChallenge: new Date("2023-09-15")
+    },
   ];
 
 export default tableData;
