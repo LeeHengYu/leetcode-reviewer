@@ -1362,6 +1362,14 @@ const tableData: Question[] = [
       solution: "path-with-minimum-effort.py",
       dailyChallenge: new Date("2023-09-16")
     },
+    {
+      question: "Shortest Path Visiting All Nodes",
+      link: "https://leetcode.com/problems/shortest-path-visiting-all-nodes/",
+      category: "Advanced Graph",
+      difficulty: "Hard",
+      solution: "shortest-path-visiting-all-nodes.py",
+      dailyChallenge: new Date("2023-09-17")
+    },
   ];
 
 export default tableData;
