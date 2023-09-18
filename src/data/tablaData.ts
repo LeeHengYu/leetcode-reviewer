@@ -1370,6 +1370,14 @@ const tableData: Question[] = [
       solution: "shortest-path-visiting-all-nodes.py",
       dailyChallenge: new Date("2023-09-17")
     },
+    {
+      question: "The K Weakest Rows in a Matrix",
+      link: "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "the-k-weakest-rows-in-a-matrix.py",
+      dailyChallenge: new Date("2023-09-18")
+    },
   ];
 
 export default tableData;
