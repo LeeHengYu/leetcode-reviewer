@@ -1378,6 +1378,14 @@ const tableData: Question[] = [
       solution: "the-k-weakest-rows-in-a-matrix.py",
       dailyChallenge: new Date("2023-09-18")
     },
+    {
+      question: "Find the Duplicate Number",
+      link: "https://leetcode.com/problems/find-the-duplicate-number/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "find-the-duplicate-number.py",
+      dailyChallenge: new Date("2023-09-19")
+    },
   ];
 
 export default tableData;
