@@ -1386,6 +1386,14 @@ const tableData: Question[] = [
       solution: "find-the-duplicate-number.py",
       dailyChallenge: new Date("2023-09-19")
     },
+    {
+      question: "Minimum Operations to Reduce X to Zero",
+      link: "https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/",
+      category: "Sliding Window",
+      difficulty: "Medium",
+      solution: "minimum-operations-to-reduce-x-to-zero.py",
+      dailyChallenge: new Date("2023-09-20")
+    },
   ];
 
 export default tableData;
