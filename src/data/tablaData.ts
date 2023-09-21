@@ -1394,6 +1394,14 @@ const tableData: Question[] = [
       solution: "minimum-operations-to-reduce-x-to-zero.py",
       dailyChallenge: new Date("2023-09-20")
     },
+    {
+      question: "Median of Two Sorted Arrarys",
+      link: "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+      category: "Arrays & Hashing",
+      difficulty: "Hard",
+      solution: "median-of-two-sorted-arrays.py",
+      dailyChallenge: new Date("2023-09-21")
+    },
   ];
 
 export default tableData;
