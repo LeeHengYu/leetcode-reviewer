@@ -1402,6 +1402,14 @@ const tableData: Question[] = [
       solution: "median-of-two-sorted-arrays.py",
       dailyChallenge: new Date("2023-09-21")
     },
+    {
+      question: "Is Subsequence",
+      link: "https://leetcode.com/problems/is-subsequence/",
+      category: "Pointers",
+      difficulty: "Easy",
+      solution: "is-subsequence.py",
+      dailyChallenge: new Date("2023-09-22")
+    },
   ];
 
 export default tableData;
