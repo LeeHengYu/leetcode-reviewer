@@ -1410,6 +1410,14 @@ const tableData: Question[] = [
       solution: "is-subsequence.py",
       dailyChallenge: new Date("2023-09-22")
     },
+    {
+      question: "Longest String Chain",
+      link: "https://leetcode.com/problems/longest-string-chain/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "longest-string-chain.py",
+      dailyChallenge: new Date("2023-09-23")
+    },
   ];
 
 export default tableData;
