@@ -1418,6 +1418,14 @@ const tableData: Question[] = [
       solution: "longest-string-chain.py",
       dailyChallenge: new Date("2023-09-23")
     },
+    {
+      question: "Champagne Tower",
+      link: "https://leetcode.com/problems/champagne-tower/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "champagne-tower.py",
+      dailyChallenge: new Date("2023-09-24")
+    },
   ];
 
 export default tableData;
