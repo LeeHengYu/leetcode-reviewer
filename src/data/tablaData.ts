@@ -1426,6 +1426,14 @@ const tableData: Question[] = [
       solution: "champagne-tower.py",
       dailyChallenge: new Date("2023-09-24")
     },
+    {
+      question: "Find the Difference",
+      link: "https://leetcode.com/problems/find-the-difference/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "find-the-difference.py",
+      dailyChallenge: new Date("2023-09-25")
+    },
   ];
 
 export default tableData;
