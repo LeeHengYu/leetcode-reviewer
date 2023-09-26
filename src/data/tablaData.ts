@@ -1434,6 +1434,14 @@ const tableData: Question[] = [
       solution: "find-the-difference.py",
       dailyChallenge: new Date("2023-09-25")
     },
+    {
+      question: "Remove Duplicate Letters",
+      link: "https://leetcode.com/problems/remove-duplicate-letters/",
+      category: "Stack",
+      difficulty: "Medium",
+      solution: "remove-duplicate-letters.py",
+      dailyChallenge: new Date("2023-09-26")
+    },
   ];
 
 export default tableData;
