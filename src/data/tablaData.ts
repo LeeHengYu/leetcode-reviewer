@@ -1442,6 +1442,14 @@ const tableData: Question[] = [
       solution: "remove-duplicate-letters.py",
       dailyChallenge: new Date("2023-09-26")
     },
+    {
+      question: "Decoded String at Index",
+      link: "https://leetcode.com/problems/decoded-string-at-index/",
+      category: "Stack",
+      difficulty: "Medium",
+      solution: "decoded-string-at-index.py",
+      dailyChallenge: new Date("2023-09-27")
+    },
   ];
 
 export default tableData;
