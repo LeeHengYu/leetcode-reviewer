@@ -1450,6 +1450,14 @@ const tableData: Question[] = [
       solution: "decoded-string-at-index.py",
       dailyChallenge: new Date("2023-09-27")
     },
+    {
+      question: "Sort Array By Parity",
+      link: "https://leetcode.com/problems/sort-array-by-parity/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "sort-array-by-parity.py",
+      dailyChallenge: new Date("2023-09-28")
+    },
   ];
 
 export default tableData;
