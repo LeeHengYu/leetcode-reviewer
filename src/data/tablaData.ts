@@ -1458,6 +1458,14 @@ const tableData: Question[] = [
       solution: "sort-array-by-parity.py",
       dailyChallenge: new Date("2023-09-28")
     },
+    {
+      question: "Monotonic Array",
+      link: "https://leetcode.com/problems/monotonic-array/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "monotonic-array.py",
+      dailyChallenge: new Date("2023-09-29")
+    },
   ];
 
 export default tableData;
