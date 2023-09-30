@@ -1466,6 +1466,14 @@ const tableData: Question[] = [
       solution: "monotonic-array.py",
       dailyChallenge: new Date("2023-09-29")
     },
+    {
+      question: "132 Pattern",
+      link: "https://leetcode.com/problems/132-pattern/",
+      category: "Stack",
+      difficulty: "Medium",
+      solution: "132-pattern.py",
+      dailyChallenge: new Date("2023-09-30")
+    },
   ];
 
 export default tableData;
