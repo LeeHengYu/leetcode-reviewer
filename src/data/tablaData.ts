@@ -1474,6 +1474,13 @@ const tableData: Question[] = [
       solution: "132-pattern.py",
       dailyChallenge: new Date("2023-09-30")
     },
+    {
+      question: "Sort List",
+      link: "https://leetcode.com/problems/sort-list/",
+      category: "Linked List",
+      difficulty: "Medium",
+      solution: "sort-list.py",
+    },
   ];
 
 export default tableData;
