@@ -1489,6 +1489,34 @@ const tableData: Question[] = [
       solution: "reverse-words-in-a-string-iii.py",
       dailyChallenge: new Date("2023-10-01"),
     },
+    {
+      question: "Minimum Operations to Collect Elements",
+      link: "https://leetcode.com/problems/minimum-operations-to-collect-elements/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "minimum-operations-to-collect-elements.py",
+    },
+    {
+      question: "Minimum Number of Operations to Make Array Empty",
+      link: "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "minimum-number-of-operations-to-make-array-empty.py",
+    },
+    {
+      question: "Split Array Into Maximum Number of Subarrays",
+      link: "https://leetcode.com/problems/split-array-into-maximum-number-of-subarrays/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "split-array-into-maximum-number-of-subarrays.py",
+    },
+    {
+      question: "Maximum Number of K-Divisible Components",
+      link: "https://leetcode.com/problems/maximum-number-of-k-divisible-components/",
+      category: "Graph",
+      difficulty: "Hard",
+      solution: "maximum-number-of-k-divisible-components.py",
+    },
   ];
 
 export default tableData;
