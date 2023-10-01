@@ -1481,6 +1481,14 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "sort-list.py",
     },
+    {
+      question: "Reverse Words in a String III",
+      link: "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "reverse-words-in-a-string-iii.py",
+      dailyChallenge: new Date("2023-10-01"),
+    },
   ];
 
 export default tableData;
