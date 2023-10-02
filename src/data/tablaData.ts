@@ -1517,6 +1517,14 @@ const tableData: Question[] = [
       difficulty: "Hard",
       solution: "maximum-number-of-k-divisible-components.py",
     },
+    {
+      question: "Remove Colored Pieces if Both Neighbors are the Same Color",
+      link: "https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "remove-colored-pieces-if-both-neighbors-are-the-same-color.py",
+      dailyChallenge: new Date("2023-10-02"),
+    },
   ];
 
 export default tableData;
