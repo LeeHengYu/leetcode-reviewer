@@ -1525,6 +1525,13 @@ const tableData: Question[] = [
       solution: "remove-colored-pieces-if-both-neighbors-are-the-same-color.py",
       dailyChallenge: new Date("2023-10-02"),
     },
+    {
+      question: "Maximum Path Quality of a Graph",
+      link: "https://leetcode.com/problems/maximum-path-quality-of-a-graph/",
+      category: "Graph",
+      difficulty: "Hard",
+      solution: "maximum-path-quality-of-a-graph.py",
+    },
   ];
 
 export default tableData;
