@@ -1532,6 +1532,14 @@ const tableData: Question[] = [
       difficulty: "Hard",
       solution: "maximum-path-quality-of-a-graph.py",
     },
+    {
+      question: "Number of Good Pairs",
+      link: "https://leetcode.com/problems/number-of-good-pairs/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "number-of-good-pairs.py",
+      dailyChallenge: new Date("2023-10-03"),
+    },
   ];
 
 export default tableData;
