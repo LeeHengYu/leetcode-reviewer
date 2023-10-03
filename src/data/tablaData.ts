@@ -1554,6 +1554,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "snakes-and-ladders.py",
     },
+    {
+      question: "IPO",
+      link: "https://leetcode.com/problems/ipo/",
+      category: "Heap / Priority Queue",
+      difficulty: "Hard",
+      solution: "ipo.py",
+    },
   ];
 
 export default tableData;
