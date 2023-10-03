@@ -1540,6 +1540,13 @@ const tableData: Question[] = [
       solution: "number-of-good-pairs.py",
       dailyChallenge: new Date("2023-10-03"),
     },
+    {
+      question: "Maximum Sum Circular Subarray",
+      link: "https://leetcode.com/problems/maximum-sum-circular-subarray/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "maximum-sum-circular-subarray.py",
+    },
   ];
 
 export default tableData;
