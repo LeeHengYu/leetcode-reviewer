@@ -1547,6 +1547,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "maximum-sum-circular-subarray.py",
     },
+    {
+      question: "Snakes and Ladders",
+      link: "https://leetcode.com/problems/snakes-and-ladders/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "snakes-and-ladders.py",
+    },
   ];
 
 export default tableData;
