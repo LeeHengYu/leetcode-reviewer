@@ -1561,6 +1561,14 @@ const tableData: Question[] = [
       difficulty: "Hard",
       solution: "ipo.py",
     },
+    {
+      question: "Design Hashmap",
+      link: "https://leetcode.com/problems/design-hashmap/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "design-hashmap.py",
+      dailyChallenge: new Date("2023-10-04"),
+    },
   ];
 
 export default tableData;
