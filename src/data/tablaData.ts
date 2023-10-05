@@ -1577,6 +1577,13 @@ const tableData: Question[] = [
       solution: "majority-element-ii.py",
       dailyChallenge: new Date("2023-10-05"),
     },
+    {
+      question: "Minimum Genetic Mutation",
+      link: "https://leetcode.com/problems/minimum-genetic-mutation/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "minimum-genetic-mutation.py",
+    },
   ];
 
 export default tableData;
