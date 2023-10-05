@@ -1569,6 +1569,14 @@ const tableData: Question[] = [
       solution: "design-hashmap.py",
       dailyChallenge: new Date("2023-10-04"),
     },
+    {
+      question: "Majority Element II",
+      link: "https://leetcode.com/problems/majority-element-ii/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "majority-element-ii.py",
+      dailyChallenge: new Date("2023-10-05"),
+    },
   ];
 
 export default tableData;
