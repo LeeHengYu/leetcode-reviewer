@@ -1584,6 +1584,22 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "minimum-genetic-mutation.py",
     },
+    {
+      question: "Integer Break",
+      link: "https://leetcode.com/problems/integer-break/",
+      category: "Math",
+      difficulty: "Medium",
+      solution: "integer-break.py",
+      dailyChallenge: new Date("2023-10-06"),
+    },
+    {
+      question: "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+      link: "https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "build-array-where-you-can-find-the-maximum-exactly-k-comparisons.py",
+      dailyChallenge: new Date("2023-10-07"),
+    },
   ];
 
 export default tableData;
