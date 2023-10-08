@@ -1600,6 +1600,14 @@ const tableData: Question[] = [
       solution: "build-array-where-you-can-find-the-maximum-exactly-k-comparisons.py",
       dailyChallenge: new Date("2023-10-07"),
     },
+    {
+      question: "Max Dot Product of Two Subsequences",
+      link: "https://leetcode.com/problems/max-dot-product-of-two-subsequences/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "max-dot-product-of-two-subsequences.py",
+      dailyChallenge: new Date("2023-10-08"),
+    },
   ];
 
 export default tableData;
