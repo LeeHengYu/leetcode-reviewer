@@ -1608,6 +1608,14 @@ const tableData: Question[] = [
       solution: "max-dot-product-of-two-subsequences.py",
       dailyChallenge: new Date("2023-10-08"),
     },
+    {
+      question: "Find First and Last Position of Element in Sorted Array",
+      link: "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+      category: "Binary Search",
+      difficulty: "Medium",
+      solution: "find-first-and-last-position-of-element-in-sorted-array.py",
+      dailyChallenge: new Date("2023-10-09"),
+    },
   ];
 
 export default tableData;
