@@ -1616,6 +1616,14 @@ const tableData: Question[] = [
       solution: "find-first-and-last-position-of-element-in-sorted-array.py",
       dailyChallenge: new Date("2023-10-09"),
     },
+    {
+      question: "Minimum Number of Operations to Make Array Continuous",
+      link: "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/",
+      category: "Binary Search",
+      difficulty: "Hard",
+      solution: "minimum-number-of-operations-to-make-array-continuous.py",
+      dailyChallenge: new Date("2023-10-10"),
+    },
   ];
 
 export default tableData;
