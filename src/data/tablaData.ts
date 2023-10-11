@@ -1624,6 +1624,14 @@ const tableData: Question[] = [
       solution: "minimum-number-of-operations-to-make-array-continuous.py",
       dailyChallenge: new Date("2023-10-10"),
     },
+    {
+      question: "Number of Ways to Reorder Array to Get Same BST",
+      link: "https://leetcode.com/problems/number-of-flowers-in-full-bloom/",
+      category: "Binary Search",
+      difficulty: "Hard",
+      solution: "number-of-flowers-in-full-bloom.py",
+      dailyChallenge: new Date("2023-10-11"),
+    },
   ];
 
 export default tableData;
