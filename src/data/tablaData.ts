@@ -1632,6 +1632,14 @@ const tableData: Question[] = [
       solution: "number-of-flowers-in-full-bloom.py",
       dailyChallenge: new Date("2023-10-11"),
     },
+    {
+      question: "Find in Mountain Array",
+      link: "https://leetcode.com/problems/find-in-mountain-array/",
+      category: "Binary Search",
+      difficulty: "Hard",
+      solution: "find-in-mountain-array.py",
+      dailyChallenge: new Date("2023-10-12"),
+    },
   ];
 
 export default tableData;
