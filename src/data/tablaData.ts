@@ -1640,6 +1640,14 @@ const tableData: Question[] = [
       solution: "find-in-mountain-array.py",
       dailyChallenge: new Date("2023-10-12"),
     },
+    {
+      question: "Min Cost Climbing Stairs",
+      link: "https://leetcode.com/problems/min-cost-climbing-stairs/",
+      category: "Dynamic Programming",
+      difficulty: "Easy",
+      solution: "min-cost-climbing-stairs.py",
+      dailyChallenge: new Date("2023-10-13"),
+    },
   ];
 
 export default tableData;
