@@ -189,6 +189,7 @@ const tableData: Question[] = [
       difficulty: "Hard",
       category: "Dynamic Programming",
       solution: "painting-the-walls.py",
+      dailyChallenge: new Date("2023-10-14"),
     },
     {
       question: "Find the Value of the Partition",
