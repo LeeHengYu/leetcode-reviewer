@@ -1657,6 +1657,14 @@ const tableData: Question[] = [
       solution: "number-of-ways-to-stay-in-the-same-place-after-some-steps.py",
       dailyChallenge: new Date("2023-10-15"),
     },
+    {
+      question: "Pascal's Triangle II",
+      link: "https://leetcode.com/problems/pascals-triangle-ii/",
+      category: "Dynamic Programming",
+      difficulty: "Easy",
+      solution: "pascals-triangle-ii.py",
+      dailyChallenge: new Date("2023-10-16"),
+    },
   ];
 
 export default tableData;
