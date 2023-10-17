@@ -1665,6 +1665,14 @@ const tableData: Question[] = [
       solution: "pascals-triangle-ii.py",
       dailyChallenge: new Date("2023-10-16"),
     },
+    {
+      question: "Validate Binary Tree Nodes",
+      link: "https://leetcode.com/problems/validate-binary-tree-nodes/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "validate-binary-tree-nodes.py",
+      dailyChallenge: new Date("2023-10-17"),
+    },
   ];
 
 export default tableData;
