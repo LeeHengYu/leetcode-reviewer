@@ -1673,6 +1673,14 @@ const tableData: Question[] = [
       solution: "validate-binary-tree-nodes.py",
       dailyChallenge: new Date("2023-10-17"),
     },
+    {
+      question: "Parallel Courses III",
+      link: "https://leetcode.com/problems/parallel-courses-iii/",
+      category: "Advanced Graph",
+      difficulty: "Hard",
+      solution: "parallel-courses-iii.py",
+      dailyChallenge: new Date("2023-10-18"),
+    },
   ];
 
 export default tableData;
