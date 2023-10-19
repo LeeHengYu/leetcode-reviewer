@@ -1681,6 +1681,14 @@ const tableData: Question[] = [
       solution: "parallel-courses-iii.py",
       dailyChallenge: new Date("2023-10-18"),
     },
+    {
+      question: "Backspace String Compare",
+      link: "https://leetcode.com/problems/backspace-string-compare/",
+      category: "Stack",
+      difficulty: "Easy",
+      solution: "backspace-string-compare.py",
+      dailyChallenge: new Date("2023-10-19"),
+    },
   ];
 
 export default tableData;
