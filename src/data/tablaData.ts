@@ -1689,6 +1689,14 @@ const tableData: Question[] = [
       solution: "backspace-string-compare.py",
       dailyChallenge: new Date("2023-10-19"),
     },
+    {
+      question: "Flatten Nested List Iterator",
+      link: "https://leetcode.com/problems/flatten-nested-list-iterator/",
+      category: "Stack",
+      difficulty: "Medium",
+      solution: "flatten-nested-list-iterator.py",
+      dailyChallenge: new Date("2023-10-20"),
+    },
   ];
 
 export default tableData;
