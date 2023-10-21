@@ -1697,6 +1697,14 @@ const tableData: Question[] = [
       solution: "flatten-nested-list-iterator.py",
       dailyChallenge: new Date("2023-10-20"),
     },
+    {
+      question: "Constrained Subsequence Sum",
+      link: "https://leetcode.com/problems/constrained-subsequence-sum/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "constrained-subsequence-sum.py",
+      dailyChallenge: new Date("2023-10-21"),
+    },
   ];
 
 export default tableData;
