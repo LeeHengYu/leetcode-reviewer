@@ -1705,6 +1705,14 @@ const tableData: Question[] = [
       solution: "constrained-subsequence-sum.py",
       dailyChallenge: new Date("2023-10-21"),
     },
+    {
+      question: "Maximum Score of a Good Subarray",
+      link: "https://leetcode.com/problems/maximum-score-of-a-good-subarray/",
+      category: "Arrays & Hashing",
+      difficulty: "Hard",
+      solution: "maximum-score-of-a-good-subarray.py",
+      dailyChallenge: new Date("2023-10-22"),
+    },
   ];
 
 export default tableData;
