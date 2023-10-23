@@ -1713,6 +1713,14 @@ const tableData: Question[] = [
       solution: "maximum-score-of-a-good-subarray.py",
       dailyChallenge: new Date("2023-10-22"),
     },
+    {
+      question: "Power of Four",
+      link: "https://leetcode.com/problems/power-of-four/",
+      category: "Math",
+      difficulty: "Easy",
+      solution: "power-of-four.py",
+      dailyChallenge: new Date("2023-10-23"),
+    },
   ];
 
 export default tableData;
