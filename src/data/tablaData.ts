@@ -1721,6 +1721,14 @@ const tableData: Question[] = [
       solution: "power-of-four.py",
       dailyChallenge: new Date("2023-10-23"),
     },
+    {
+      question: "Find Largest Value in Each Tree Row",
+      link: "https://leetcode.com/problems/find-largest-value-in-each-tree-row/",
+      category: "Tree",
+      difficulty: "Medium",
+      solution: "find-largest-value-in-each-tree-row.py",
+      dailyChallenge: new Date("2023-10-24"),
+    },
   ];
 
 export default tableData;
