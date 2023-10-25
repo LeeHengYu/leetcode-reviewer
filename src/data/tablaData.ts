@@ -1729,6 +1729,14 @@ const tableData: Question[] = [
       solution: "find-largest-value-in-each-tree-row.py",
       dailyChallenge: new Date("2023-10-24"),
     },
+    {
+      question: "K-th Symbol in Grammar",
+      link: "https://leetcode.com/problems/k-th-symbol-in-grammar/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "k-th-symbol-in-grammar.py",
+      dailyChallenge: new Date("2023-10-25"),
+    },
   ];
 
 export default tableData;
