@@ -1737,6 +1737,14 @@ const tableData: Question[] = [
       solution: "k-th-symbol-in-grammar.py",
       dailyChallenge: new Date("2023-10-25"),
     },
+    {
+      question: "Binary Trees With Factors",
+      link: "https://leetcode.com/problems/binary-trees-with-factors/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "binary-trees-with-factors.py",
+      dailyChallenge: new Date("2023-10-26"),
+    },
   ];
 
 export default tableData;
