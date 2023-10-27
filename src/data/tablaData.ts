@@ -1745,6 +1745,14 @@ const tableData: Question[] = [
       solution: "binary-trees-with-factors.py",
       dailyChallenge: new Date("2023-10-26"),
     },
+    {
+      question: "Longest Palindromic Substring",
+      link: "https://leetcode.com/problems/longest-palindromic-substring/",
+      category: "Sliding Window",
+      difficulty: "Medium",
+      solution: "longest-palindromic-substring.py",
+      dailyChallenge: new Date("2023-10-27"),
+    },
   ];
 
 export default tableData;
