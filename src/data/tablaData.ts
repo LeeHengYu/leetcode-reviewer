@@ -1753,6 +1753,14 @@ const tableData: Question[] = [
       solution: "longest-palindromic-substring.py",
       dailyChallenge: new Date("2023-10-27"),
     },
+    {
+      question: "Count Vowels Permutation",
+      link: "https://leetcode.com/problems/count-vowels-permutation/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "count-vowels-permutation.py",
+      dailyChallenge: new Date("2023-10-28"),
+    },
   ];
 
 export default tableData;
