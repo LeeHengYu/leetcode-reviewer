@@ -1761,6 +1761,14 @@ const tableData: Question[] = [
       solution: "count-vowels-permutation.py",
       dailyChallenge: new Date("2023-10-28"),
     },
+    {
+      question: "Poor Pigs",
+      link: "https://leetcode.com/problems/poor-pigs/",
+      category: "Math",
+      difficulty: "Hard",
+      solution: "poor-pigs.py",
+      dailyChallenge: new Date("2023-10-29"),
+    },
   ];
 
 export default tableData;
