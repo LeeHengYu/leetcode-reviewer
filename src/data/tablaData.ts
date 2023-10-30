@@ -1769,6 +1769,14 @@ const tableData: Question[] = [
       solution: "poor-pigs.py",
       dailyChallenge: new Date("2023-10-29"),
     },
+    {
+      question: "Sort Integers by The Number of 1 Bits",
+      link: "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "sort-integers-by-the-number-of-1-bits.py",
+      dailyChallenge: new Date("2023-10-30"),
+    },
   ];
 
 export default tableData;
