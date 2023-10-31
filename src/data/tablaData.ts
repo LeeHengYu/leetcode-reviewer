@@ -1777,6 +1777,14 @@ const tableData: Question[] = [
       solution: "sort-integers-by-the-number-of-1-bits.py",
       dailyChallenge: new Date("2023-10-30"),
     },
+    {
+      question: "Find The Original Array of Prefix Xor",
+      link: "https://leetcode.com/problems/find-the-original-array-of-prefix-xor/",
+      category: "Bit Manipulation",
+      difficulty: "Medium",
+      solution: "find-the-original-array-of-prefix-xor.py",
+      dailyChallenge: new Date("2023-10-31"),
+    },
   ];
 
 export default tableData;
