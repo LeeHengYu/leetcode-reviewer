@@ -1785,6 +1785,14 @@ const tableData: Question[] = [
       solution: "find-the-original-array-of-prefix-xor.py",
       dailyChallenge: new Date("2023-10-31"),
     },
+    {
+      question: "Find Mode in Binary Search Tree",
+      link: "https://leetcode.com/problems/find-mode-in-binary-search-tree/",
+      category: "Tree",
+      difficulty: "Easy",
+      solution: "find-mode-in-binary-search-tree.py",
+      dailyChallenge: new Date("2023-11-01"),
+    },
   ];
 
 export default tableData;
