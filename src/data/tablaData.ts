@@ -1793,6 +1793,14 @@ const tableData: Question[] = [
       solution: "find-mode-in-binary-search-tree.py",
       dailyChallenge: new Date("2023-11-01"),
     },
+    {
+      question: "Count Nodes Equal to Average of Subtree",
+      link: "https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/",
+      category: "Tree",
+      difficulty: "Medium",
+      solution: "count-nodes-equal-to-average-of-subtree.py",
+      dailyChallenge: new Date("2023-11-02"),
+    },
   ];
 
 export default tableData;
