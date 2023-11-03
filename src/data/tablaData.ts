@@ -1801,6 +1801,14 @@ const tableData: Question[] = [
       solution: "count-nodes-equal-to-average-of-subtree.py",
       dailyChallenge: new Date("2023-11-02"),
     },
+    {
+      question: "Build an Array With Stack Operations",
+      link: "https://leetcode.com/problems/build-an-array-with-stack-operations/",
+      category: "Stack",
+      difficulty: "Medium",
+      solution: "build-an-array-with-stack-operations.py",
+      dailyChallenge: new Date("2023-11-03"),
+    },
   ];
 
 export default tableData;
