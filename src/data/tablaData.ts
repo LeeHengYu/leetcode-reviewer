@@ -1809,6 +1809,14 @@ const tableData: Question[] = [
       solution: "build-an-array-with-stack-operations.py",
       dailyChallenge: new Date("2023-11-03"),
     },
+    {
+      question: "Last Moment Before All Ants Fall Out of a Plank",
+      link: "https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "last-moment-before-all-ants-fall-out-of-a-plank.py",
+      dailyChallenge: new Date("2023-11-04"),
+    },
   ];
 
 export default tableData;
