@@ -1817,6 +1817,14 @@ const tableData: Question[] = [
       solution: "last-moment-before-all-ants-fall-out-of-a-plank.py",
       dailyChallenge: new Date("2023-11-04"),
     },
+    {
+      question: "Find the Winner of an Array Game",
+      link: "https://leetcode.com/problems/find-the-winner-of-an-array-game/",
+      category: "Pointers",
+      difficulty: "Medium",
+      solution: "find-the-winner-of-an-array-game.py",
+      dailyChallenge: new Date("2023-11-05"),
+    },
   ];
 
 export default tableData;
