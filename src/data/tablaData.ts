@@ -1825,6 +1825,14 @@ const tableData: Question[] = [
       solution: "find-the-winner-of-an-array-game.py",
       dailyChallenge: new Date("2023-11-05"),
     },
+    {
+      question: "Seat Reservation Manager",
+      link: "https://leetcode.com/problems/seat-reservation-manager/",
+      category: "Priority Queue",
+      difficulty: "Medium",
+      solution: "seat-reservation-manager.py",
+      dailyChallenge: new Date("2023-11-06"),
+    },
   ];
 
 export default tableData;
