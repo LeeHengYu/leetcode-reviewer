@@ -1833,6 +1833,14 @@ const tableData: Question[] = [
       solution: "seat-reservation-manager.py",
       dailyChallenge: new Date("2023-11-06"),
     },
+    {
+      question: "Eliminate Maximum Number of Monsters",
+      link: "https://leetcode.com/problems/eliminate-maximum-number-of-monsters/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "eliminate-maximum-number-of-monsters.py",
+      dailyChallenge: new Date("2023-11-07"),
+    },
   ];
 
 export default tableData;
