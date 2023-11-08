@@ -1841,6 +1841,14 @@ const tableData: Question[] = [
       solution: "eliminate-maximum-number-of-monsters.py",
       dailyChallenge: new Date("2023-11-07"),
     },
+    {
+      question: "Determine if a Cell Is Reachable at a Given Time",
+      link: "https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/",
+      category: "Math",
+      difficulty: "Medium",
+      solution: "determine-if-a-cell-is-reachable-at-a-given-time.py",
+      dailyChallenge: new Date("2023-11-08"),
+    },
   ];
 
 export default tableData;
