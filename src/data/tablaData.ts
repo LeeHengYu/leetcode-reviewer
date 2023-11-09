@@ -1849,6 +1849,14 @@ const tableData: Question[] = [
       solution: "determine-if-a-cell-is-reachable-at-a-given-time.py",
       dailyChallenge: new Date("2023-11-08"),
     },
+    {
+      question: "Count Number of Homogenous Substrings",
+      link: "https://leetcode.com/problems/count-number-of-homogenous-substrings/",
+      category: "Pointers",
+      difficulty: "Medium",
+      solution: "count-number-of-homogenous-substrings.py",
+      dailyChallenge: new Date("2023-11-09"),
+    },
   ];
 
 export default tableData;
