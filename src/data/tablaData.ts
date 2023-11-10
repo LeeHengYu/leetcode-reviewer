@@ -1857,6 +1857,14 @@ const tableData: Question[] = [
       solution: "count-number-of-homogenous-substrings.py",
       dailyChallenge: new Date("2023-11-09"),
     },
+    {
+      question: "Restore the Array From Adjacent Pairs",
+      link: "https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/",
+      category: "Graph",
+      difficulty: "Medium",
+      solution: "restore-the-array-from-adjacent-pairs.py",
+      dailyChallenge: new Date("2023-11-10"),
+    },
   ];
 
 export default tableData;
