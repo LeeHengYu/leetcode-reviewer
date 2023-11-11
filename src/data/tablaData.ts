@@ -1865,6 +1865,14 @@ const tableData: Question[] = [
       solution: "restore-the-array-from-adjacent-pairs.py",
       dailyChallenge: new Date("2023-11-10"),
     },
+    {
+      question: "Design Graph With Shortest Path Calculator",
+      link: "https://leetcode.com/problems/design-graph-with-shortest-path-calculator/",
+      category: "Advanced Graph",
+      difficulty: "Hard",
+      solution: "design-graph-with-shortest-path-calculator.py",
+      dailyChallenge: new Date("2023-11-11"),
+    },
   ];
 
 export default tableData;
