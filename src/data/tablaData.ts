@@ -1873,6 +1873,14 @@ const tableData: Question[] = [
       solution: "design-graph-with-shortest-path-calculator.py",
       dailyChallenge: new Date("2023-11-11"),
     },
+    {
+      question: "Bus Routes",
+      link: "https://leetcode.com/problems/bus-routes/",
+      category: "Advanced Graph",
+      difficulty: "Hard",
+      solution: "bus-routes.py",
+      dailyChallenge: new Date("2023-11-12"),
+    },
   ];
 
 export default tableData;
