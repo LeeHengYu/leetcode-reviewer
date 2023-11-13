@@ -1881,6 +1881,14 @@ const tableData: Question[] = [
       solution: "bus-routes.py",
       dailyChallenge: new Date("2023-11-12"),
     },
+    {
+      question: "Sort Vowels in a String",
+      link: "https://leetcode.com/problems/sort-vowels-in-a-string/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "sort-vowels-in-a-string.py",
+      dailyChallenge: new Date("2023-11-13"),
+    },
   ];
 
 export default tableData;
