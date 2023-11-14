@@ -698,13 +698,6 @@ const tableData: Question[] = [
       dailyChallenge: new Date("2023-07-24")
     },
     {
-      question: "Unique Length-3 Palindromic Subsequences",
-      link: "https://leetcode.com/problems/unique-length-3-palindromic-subsequences/",
-      category: "Arrays & Hashing",
-      difficulty: "Medium",
-      solution: "unique-length-3-palindromic-subsequences.py",
-    },
-    {
       question: "Valid Palindrome II",
       link: "https://leetcode.com/problems/valid-palindrome-ii/",
       category: "Pointers",
