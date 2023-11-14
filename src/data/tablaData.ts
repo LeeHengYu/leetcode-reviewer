@@ -1889,6 +1889,14 @@ const tableData: Question[] = [
       solution: "sort-vowels-in-a-string.py",
       dailyChallenge: new Date("2023-11-13"),
     },
+    {
+      question: "Unique Length-3 Palindromic Subsequences",
+      link: "https://leetcode.com/problems/unique-length-3-palindromic-subsequences/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "unique-length-3-palindromic-subsequences.py",
+      dailyChallenge: new Date("2023-11-14"),
+    },
   ];
 
 export default tableData;
