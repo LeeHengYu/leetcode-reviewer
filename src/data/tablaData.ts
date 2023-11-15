@@ -1890,6 +1890,14 @@ const tableData: Question[] = [
       solution: "unique-length-3-palindromic-subsequences.py",
       dailyChallenge: new Date("2023-11-14"),
     },
+    {
+      question: "Maximum Element After Decreasing and Rearranging",
+      link: "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "maximum-element-after-decreasing-and-rearranging.py",
+      dailyChallenge: new Date("2023-11-15"),
+    },
   ];
 
 export default tableData;
