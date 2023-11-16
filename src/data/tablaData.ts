@@ -1898,6 +1898,14 @@ const tableData: Question[] = [
       solution: "maximum-element-after-decreasing-and-rearranging.py",
       dailyChallenge: new Date("2023-11-15"),
     },
+    {
+      question: "Find Unique Binary String",
+      link: "https://leetcode.com/problems/find-unique-binary-string/",
+      category: "Backtracking",
+      difficulty: "Medium",
+      solution: "find-unique-binary-string.py",
+      dailyChallenge: new Date("2023-11-16"),
+    },
   ];
 
 export default tableData;
