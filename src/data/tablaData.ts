@@ -1906,6 +1906,14 @@ const tableData: Question[] = [
       solution: "find-unique-binary-string.py",
       dailyChallenge: new Date("2023-11-16"),
     },
+    {
+      question: "Minimize Maximum Pair Sum in Array",
+      link: "https://leetcode.com/problems/minimize-maximum-pair-sum-in-array/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "minimize-maximum-pair-sum-in-array.py",
+      dailyChallenge: new Date("2023-11-17"),
+    },
   ];
 
 export default tableData;
