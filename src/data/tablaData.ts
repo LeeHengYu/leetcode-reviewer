@@ -1914,6 +1914,14 @@ const tableData: Question[] = [
       solution: "minimize-maximum-pair-sum-in-array.py",
       dailyChallenge: new Date("2023-11-17"),
     },
+    {
+      question: "Frequency of the Most Frequent Element",
+      link: "https://leetcode.com/problems/frequency-of-the-most-frequent-element/",
+      category: "Sliding Window",
+      difficulty: "Medium",
+      solution: "frequency-of-the-most-frequent-element.py",
+      dailyChallenge: new Date("2023-11-18"),
+    },
   ];
 
 export default tableData;
