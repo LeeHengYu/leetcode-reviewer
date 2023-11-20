@@ -1930,6 +1930,14 @@ const tableData: Question[] = [
       solution: "reduction-operations-to-make-the-array-elements-equal.py",
       dailyChallenge: new Date("2023-11-19"),
     },
+    {
+      question: "Minimum Amount of Time to Collect All Apples in a Tree",
+      link: "https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "minimum-amount-of-time-to-collect-garbage.py",
+      dailyChallenge: new Date("2023-11-20"),
+    },
   ];
 
 export default tableData;
