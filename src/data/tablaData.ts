@@ -1938,6 +1938,14 @@ const tableData: Question[] = [
       solution: "minimum-amount-of-time-to-collect-garbage.py",
       dailyChallenge: new Date("2023-11-20"),
     },
+    {
+      question: "Count Nice Pairs in an Array",
+      link: "https://leetcode.com/problems/count-nice-pairs-in-an-array/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "count-nice-pairs-in-an-array.py",
+      dailyChallenge: new Date("2023-11-21"),
+    },
   ];
 
 export default tableData;
