@@ -1946,6 +1946,14 @@ const tableData: Question[] = [
       solution: "count-nice-pairs-in-an-array.py",
       dailyChallenge: new Date("2023-11-21"),
     },
+    {
+      question: "Diagonal Traverse II",
+      link: "https://leetcode.com/problems/diagonal-traverse-ii/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "diagonal-traverse-ii.py",
+      dailyChallenge: new Date("2023-11-22"),
+    },
   ];
 
 export default tableData;
