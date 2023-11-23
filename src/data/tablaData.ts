@@ -1954,6 +1954,14 @@ const tableData: Question[] = [
       solution: "diagonal-traverse-ii.py",
       dailyChallenge: new Date("2023-11-22"),
     },
+    {
+      question: "Arithmetic Subarrays",
+      link: "https://leetcode.com/problems/arithmetic-subarrays/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "arithmetic-subarrays.py",
+      dailyChallenge: new Date("2023-11-23"),
+    },
   ];
 
 export default tableData;
