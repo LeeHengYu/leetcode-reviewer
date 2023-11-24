@@ -1962,6 +1962,14 @@ const tableData: Question[] = [
       solution: "arithmetic-subarrays.py",
       dailyChallenge: new Date("2023-11-23"),
     },
+    {
+      question: "Maximum Number of Coins You Can Get",
+      link: "https://leetcode.com/problems/maximum-number-of-coins-you-can-get/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "maximum-number-of-coins-you-can-get.py",
+      dailyChallenge: new Date("2023-11-24"),
+    },
   ];
 
 export default tableData;
