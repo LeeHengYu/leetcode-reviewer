@@ -1964,11 +1964,19 @@ const tableData: Question[] = [
     },
     {
       question: "Maximum Number of Coins You Can Get",
-      link: "https://leetcode.com/problems/maximum-number-of-coins-you-can-get/",
+      link: "https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/",
       category: "Greedy",
       difficulty: "Medium",
       solution: "maximum-number-of-coins-you-can-get.py",
       dailyChallenge: new Date("2023-11-24"),
+    },
+    {
+      question: "Sum of Absolute Differences in a Sorted Array",
+      link: "https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "sum-of-absolute-differences-in-a-sorted-array.py",
+      dailyChallenge: new Date("2023-11-25"),
     },
   ];
 
