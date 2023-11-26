@@ -1978,6 +1978,14 @@ const tableData: Question[] = [
       solution: "sum-of-absolute-differences-in-a-sorted-array.py",
       dailyChallenge: new Date("2023-11-25"),
     },
+    {
+      question: "Largest Submatrix With Rearrangements",
+      link: "https://leetcode.com/problems/largest-submatrix-with-rearrangements/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "largest-submatrix-with-rearrangements.py",
+      dailyChallenge: new Date("2023-11-26"),
+    },
   ];
 
 export default tableData;
