@@ -1986,6 +1986,14 @@ const tableData: Question[] = [
       solution: "largest-submatrix-with-rearrangements.py",
       dailyChallenge: new Date("2023-11-26"),
     },
+    {
+      question: "Knight Dialer",
+      link: "https://leetcode.com/problems/knight-dialer/",
+      category: "Dynamic Programming",
+      difficulty: "Medium",
+      solution: "knight-dialer.py",
+      dailyChallenge: new Date("2023-11-27"),
+    },
   ];
 
 export default tableData;
