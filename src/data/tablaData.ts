@@ -1994,6 +1994,14 @@ const tableData: Question[] = [
       solution: "knight-dialer.py",
       dailyChallenge: new Date("2023-11-27"),
     },
+    {
+      question: "Number of Ways to Divide a Long Corridor",
+      link: "https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "number-of-ways-to-divide-a-long-corridor.py",
+      dailyChallenge: new Date("2023-11-28"),
+    },
   ];
 
 export default tableData;
