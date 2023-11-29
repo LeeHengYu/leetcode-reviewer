@@ -2002,6 +2002,14 @@ const tableData: Question[] = [
       solution: "number-of-ways-to-divide-a-long-corridor.py",
       dailyChallenge: new Date("2023-11-28"),
     },
+    {
+      question: "Number of 1 Bits",
+      link: "https://leetcode.com/problems/number-of-1-bits/",
+      category: "Bit Manipulation",
+      difficulty: "Easy",
+      solution: "number-of-1-bits.py",
+      dailyChallenge: new Date("2023-11-29"),
+    },
   ];
 
 export default tableData;
