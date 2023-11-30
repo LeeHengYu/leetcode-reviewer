@@ -4,13 +4,8 @@ const axiosInstance = axios.create({
     baseURL: "https://raw.githubusercontent.com/LeeHengYu/LeetCodeRevision/main",
 })
 
-export interface Response{
-    results: string;
-  }
-
 class APIClient{
     endpoint: string;
-
     constructor(endpoint: string){
         this.endpoint = endpoint;
     }

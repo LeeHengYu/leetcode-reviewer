@@ -2010,6 +2010,14 @@ const tableData: Question[] = [
       solution: "number-of-1-bits.py",
       dailyChallenge: new Date("2023-11-29"),
     },
+    {
+      question: "Minimum One Bit Operations to Make Integers Zero",
+      link: "https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero/",
+      category: "Bit Manipulation",
+      difficulty: "Hard",
+      solution: "minimum-one-bit-operations-to-make-integers-zero.py",
+      dailyChallenge: new Date("2023-11-30"),
+    },
   ];
 
 export default tableData;
