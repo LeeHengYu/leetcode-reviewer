@@ -2018,6 +2018,14 @@ const tableData: Question[] = [
       solution: "minimum-one-bit-operations-to-make-integers-zero.py",
       dailyChallenge: new Date("2023-11-30"),
     },
+    {
+      question: "Check If Two String Arrays are Equivalent",
+      link: "https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "check-if-two-string-arrays-are-equivalent.py",
+      dailyChallenge: new Date("2023-12-01"),
+    },
   ];
 
 export default tableData;
