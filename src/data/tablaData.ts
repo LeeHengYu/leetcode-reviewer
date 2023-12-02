@@ -2026,6 +2026,14 @@ const tableData: Question[] = [
       solution: "check-if-two-string-arrays-are-equivalent.py",
       dailyChallenge: new Date("2023-12-01"),
     },
+    {
+      question: "Find Words That Can Be Formed by Characters",
+      link: "https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "find-words-that-can-be-formed-by-characters.py",
+      dailyChallenge: new Date("2023-12-02"),
+    },
   ];
 
 export default tableData;
