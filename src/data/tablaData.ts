@@ -2042,6 +2042,13 @@ const tableData: Question[] = [
       solution: "minimum-time-visiting-all-points.py",
       dailyChallenge: new Date("2023-12-03"),
     },
+    {
+      question: "Minimum Number of Coins to be Added",
+      link: "https://leetcode.com/problems/minimum-number-of-coins-to-be-added/",
+      category: "Greedy",
+      difficulty: "Medium",
+      solution: "minimum-number-of-coins-to-be-added.py",
+    },
   ];
 
 export default tableData;
