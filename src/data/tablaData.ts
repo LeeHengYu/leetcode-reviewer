@@ -2034,6 +2034,14 @@ const tableData: Question[] = [
       solution: "find-words-that-can-be-formed-by-characters.py",
       dailyChallenge: new Date("2023-12-02"),
     },
+    {
+      question: "Minimum Time Visiting All Points",
+      link: "https://leetcode.com/problems/minimum-time-visiting-all-points/",
+      category: "Greedy",
+      difficulty: "Easy",
+      solution: "minimum-time-visiting-all-points.py",
+      dailyChallenge: new Date("2023-12-03"),
+    },
   ];
 
 export default tableData;
