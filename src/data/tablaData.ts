@@ -2049,6 +2049,13 @@ const tableData: Question[] = [
       difficulty: "Medium",
       solution: "minimum-number-of-coins-to-be-added.py",
     },
+    {
+      question: "Largest 3 Same Digit Number in String",
+      link: "https://leetcode.com/problems/largest-3-same-digit-number-in-string/",
+      category: "Sliding Window",
+      difficulty: "Easy",
+      solution: "largest-3-same-digit-number-in-string.py",
+    },
   ];
 
 export default tableData;
