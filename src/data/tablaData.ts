@@ -2055,6 +2055,7 @@ const tableData: Question[] = [
       category: "Sliding Window",
       difficulty: "Easy",
       solution: "largest-3-same-digit-number-in-string.py",
+      dailyChallenge: new Date("2023-12-04"),
     },
   ];
 
