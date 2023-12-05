@@ -2057,6 +2057,14 @@ const tableData: Question[] = [
       solution: "largest-3-same-digit-number-in-string.py",
       dailyChallenge: new Date("2023-12-04"),
     },
+    {
+      question: "Count of Matches in Tournament",
+      link: "https://leetcode.com/problems/count-of-matches-in-tournament/",
+      category: "Math",
+      difficulty: "Easy",
+      solution: "count-of-matches-in-tournament.py",
+      dailyChallenge: new Date("2023-12-05"),
+    },
   ];
 
 export default tableData;
