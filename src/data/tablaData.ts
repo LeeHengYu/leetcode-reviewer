@@ -2065,6 +2065,14 @@ const tableData: Question[] = [
       solution: "count-of-matches-in-tournament.py",
       dailyChallenge: new Date("2023-12-05"),
     },
+    {
+      question: "Calculate Money in Leetcode Bank",
+      link: "https://leetcode.com/problems/calculate-money-in-leetcode-bank/",
+      category: "Math",
+      difficulty: "Easy",
+      solution: "calculate-money-in-leetcode-bank.py",
+      dailyChallenge: new Date("2023-12-06"),
+    },
   ];
 
 export default tableData;
