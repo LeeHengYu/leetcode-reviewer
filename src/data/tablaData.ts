@@ -2073,6 +2073,14 @@ const tableData: Question[] = [
       solution: "calculate-money-in-leetcode-bank.py",
       dailyChallenge: new Date("2023-12-06"),
     },
+    {
+      question: "Largest Odd Number in String",
+      link: "https://leetcode.com/problems/largest-odd-number-in-string/",
+      category: "Greedy",
+      difficulty: "Easy",
+      solution: "largest-odd-number-in-string.py",
+      dailyChallenge: new Date("2023-12-07"),
+    },
   ];
 
 export default tableData;
