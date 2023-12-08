@@ -2081,6 +2081,14 @@ const tableData: Question[] = [
       solution: "largest-odd-number-in-string.py",
       dailyChallenge: new Date("2023-12-07"),
     },
+    {
+      question: "Construct String from Binary Tree",
+      link: "https://leetcode.com/problems/construct-string-from-binary-tree/",
+      category: "Tree",
+      difficulty: "Easy",
+      solution: "construct-string-from-binary-tree.py",
+      dailyChallenge: new Date("2023-12-08"),
+    },
   ];
 
 export default tableData;
