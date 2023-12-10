@@ -2089,6 +2089,22 @@ const tableData: Question[] = [
       solution: "construct-string-from-binary-tree.py",
       dailyChallenge: new Date("2023-12-08"),
     },
+    {
+      question: "Binary Tree Inorder Traversal",
+      link: "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+      category: "Tree",
+      difficulty: "Easy",
+      solution: "binary-tree-inorder-traversal.py",
+      dailyChallenge: new Date("2023-12-09"),
+    },
+    {
+      question: "Transpose Matrix",
+      link: "https://leetcode.com/problems/transpose-matrix/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "transpose-matrix.py",
+      dailyChallenge: new Date("2023-12-10"),
+    },
   ];
 
 export default tableData;
