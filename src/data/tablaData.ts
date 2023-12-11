@@ -2105,6 +2105,14 @@ const tableData: Question[] = [
       solution: "transpose-matrix.py",
       dailyChallenge: new Date("2023-12-10"),
     },
+    {
+      question: "Element Appearing More Than 25% In Sorted Array",
+      link: "https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/",
+      category: "Binary Search",
+      difficulty: "Easy",
+      solution: "element-appearing-more-than-25-in-sorted-array.py",
+      dailyChallenge: new Date("2023-12-11"),
+    },
   ];
 
 export default tableData;
