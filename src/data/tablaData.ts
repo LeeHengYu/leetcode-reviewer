@@ -2113,6 +2113,14 @@ const tableData: Question[] = [
       solution: "element-appearing-more-than-25-in-sorted-array.py",
       dailyChallenge: new Date("2023-12-11"),
     },
+    {
+      question: "Maximum Product of Two Elements in an Array",
+      link: "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/",
+      category: "Priority Queue",
+      difficulty: "Easy",
+      solution: "maximum-product-of-two-elements-in-an-array.py",
+      dailyChallenge: new Date("2023-12-12"),
+    },
   ];
 
 export default tableData;
