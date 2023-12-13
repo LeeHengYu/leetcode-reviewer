@@ -2121,6 +2121,14 @@ const tableData: Question[] = [
       solution: "maximum-product-of-two-elements-in-an-array.py",
       dailyChallenge: new Date("2023-12-12"),
     },
+    {
+      question: "Special Positions in a Binary Matrix",
+      link: "https://leetcode.com/problems/special-positions-in-a-binary-matrix /",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "special-positions-in-a-binary-matrix.py",
+      dailyChallenge: new Date("2023-12-13"),
+    },
   ];
 
 export default tableData;
