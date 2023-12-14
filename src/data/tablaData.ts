@@ -2123,11 +2123,19 @@ const tableData: Question[] = [
     },
     {
       question: "Special Positions in a Binary Matrix",
-      link: "https://leetcode.com/problems/special-positions-in-a-binary-matrix /",
+      link: "https://leetcode.com/problems/special-positions-in-a-binary-matrix/",
       category: "Arrays & Hashing",
       difficulty: "Easy",
       solution: "special-positions-in-a-binary-matrix.py",
       dailyChallenge: new Date("2023-12-13"),
+    },
+    {
+      question: "Difference Between Ones and Zeros in Row and Column",
+      link: "https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "difference-between-ones-and-zeros-in-row-and-column.py",
+      dailyChallenge: new Date("2023-12-14"),
     },
   ];
 
