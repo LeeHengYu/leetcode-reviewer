@@ -2137,6 +2137,14 @@ const tableData: Question[] = [
       solution: "difference-between-ones-and-zeros-in-row-and-column.py",
       dailyChallenge: new Date("2023-12-14"),
     },
+    {
+      question: "Destination City",
+      link: "https://leetcode.com/problems/destination-city/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "destination-city.py",
+      dailyChallenge: new Date("2023-12-15"),
+    },
   ];
 
 export default tableData;
