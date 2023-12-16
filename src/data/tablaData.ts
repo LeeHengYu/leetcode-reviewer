@@ -2145,6 +2145,14 @@ const tableData: Question[] = [
       solution: "destination-city.py",
       dailyChallenge: new Date("2023-12-15"),
     },
+    {
+      question: "Valid Anagram",
+      link: "https://leetcode.com/problems/valid-anagram/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "valid-anagram.py",
+      dailyChallenge: new Date("2023-12-16"),
+    },
   ];
 
 export default tableData;
