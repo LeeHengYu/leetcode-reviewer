@@ -2153,6 +2153,14 @@ const tableData: Question[] = [
       solution: "valid-anagram.py",
       dailyChallenge: new Date("2023-12-16"),
     },
+    {
+      question: "Design a Food Rating System",
+      link: "https://leetcode.com/problems/design-a-food-rating-system/",
+      category: "Heap / Priority Queue",
+      difficulty: "Medium",
+      solution: "design-a-food-rating-system.py",
+      dailyChallenge: new Date("2023-12-17"),
+    },
   ];
 
 export default tableData;
