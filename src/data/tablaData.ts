@@ -2161,6 +2161,14 @@ const tableData: Question[] = [
       solution: "design-a-food-rating-system.py",
       dailyChallenge: new Date("2023-12-17"),
     },
+    {
+      question: "Maximum Product Difference Between Two Pairs",
+      link: "https://leetcode.com/problems/maximum-product-difference-between-two-pairs/",
+      category: "Heap / Priority Queue",
+      difficulty: "Easy",
+      solution: "maximum-product-difference-between-two-pairs.py",
+      dailyChallenge: new Date("2023-12-18"),
+    },
   ];
 
 export default tableData;
