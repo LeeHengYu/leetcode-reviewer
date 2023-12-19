@@ -2169,6 +2169,14 @@ const tableData: Question[] = [
       solution: "maximum-product-difference-between-two-pairs.py",
       dailyChallenge: new Date("2023-12-18"),
     },
+    {
+      question: "Image Smoother",
+      link: "https://leetcode.com/problems/image-smoother/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "image-smoother.py",
+      dailyChallenge: new Date("2023-12-19"),
+    },
   ];
 
 export default tableData;
