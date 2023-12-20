@@ -2177,6 +2177,14 @@ const tableData: Question[] = [
       solution: "image-smoother.py",
       dailyChallenge: new Date("2023-12-19"),
     },
+    {
+      question: "Buy Two Chocolates",
+      link: "https://leetcode.com/problems/buy-two-chocolates/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "buy-two-chocolates.py",
+      dailyChallenge: new Date("2023-12-20"),
+    },
   ];
 
 export default tableData;
