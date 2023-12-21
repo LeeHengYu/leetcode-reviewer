@@ -2185,6 +2185,14 @@ const tableData: Question[] = [
       solution: "buy-two-chocolates.py",
       dailyChallenge: new Date("2023-12-20"),
     },
+    {
+      question: "Widest Vertical Area Between Two Points Containing No Points",
+      link: "https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/",
+      category: "Arrays & Hashing",
+      difficulty: "Medium",
+      solution: "widest-vertical-area-between-two-points-containing-no-points.py",
+      dailyChallenge: new Date("2023-12-21"),
+    },
   ];
 
 export default tableData;
