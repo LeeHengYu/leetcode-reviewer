@@ -2193,6 +2193,14 @@ const tableData: Question[] = [
       solution: "widest-vertical-area-between-two-points-containing-no-points.py",
       dailyChallenge: new Date("2023-12-21"),
     },
+    {
+      question: "Maximum Score After Splitting a String",
+      link: "https://leetcode.com/problems/maximum-score-after-splitting-a-string/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "maximum-score-after-splitting-a-string.py",
+      dailyChallenge: new Date("2023-12-22"),
+    },
   ];
 
 export default tableData;
