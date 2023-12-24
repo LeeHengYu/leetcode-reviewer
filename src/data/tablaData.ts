@@ -2201,6 +2201,22 @@ const tableData: Question[] = [
       solution: "maximum-score-after-splitting-a-string.py",
       dailyChallenge: new Date("2023-12-22"),
     },
+    {
+      question: "Path Crossing",
+      link: "https://leetcode.com/problems/path-crossing/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "path-crossing.py",
+      dailyChallenge: new Date("2023-12-23"),
+    },
+    {
+      question: "Minimum Changes To Make Alternating Binary String",
+      link: "https://leetcode.com/problems/changes-to-make-alternating-binary-string/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "changes-to-make-alternating-binary-string.py",
+      dailyChallenge: new Date("2023-12-24"),
+    },
   ];
 
 export default tableData;
