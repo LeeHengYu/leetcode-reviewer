@@ -2209,6 +2209,14 @@ const tableData: Question[] = [
       solution: "path-crossing.py",
       dailyChallenge: new Date("2023-12-23"),
     },
+    {
+      question: "Minimum Changes To Make Alternating Binary String",
+      link: "https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "minimum-changes-to-make-alternating-binary-string.py",
+      dailyChallenge: new Date("2023-12-24"),
+    },
   ];
 
 export default tableData;
