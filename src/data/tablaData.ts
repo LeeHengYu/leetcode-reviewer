@@ -2217,6 +2217,14 @@ const tableData: Question[] = [
       solution: "minimum-changes-to-make-alternating-binary-string.py",
       dailyChallenge: new Date("2023-12-24"),
     },
+    {
+      question: "Decode Ways",
+      link: "https://leetcode.com/problems/decode-ways/",
+      category: "Backtracking",
+      difficulty: "Medium",
+      solution: "decode-ways.py",
+      dailyChallenge: new Date("2023-12-25"),
+    },
   ];
 
 export default tableData;
