@@ -2228,7 +2228,7 @@ const tableData: Question[] = [
     {
       question: "Number of Dice Rolls With Target Sum",
       link: "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/",
-      category: "Backtracking",
+      category: "Dynamic Programming",
       difficulty: "Medium",
       solution: "number-of-dice-rolls-with-target-sum.py",
       dailyChallenge: new Date("2023-12-26"),
