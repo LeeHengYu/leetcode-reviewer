@@ -2233,6 +2233,14 @@ const tableData: Question[] = [
       solution: "number-of-dice-rolls-with-target-sum.py",
       dailyChallenge: new Date("2023-12-26"),
     },
+    {
+      question: "Minimum Time to Make Rope Colorful",
+      link: "https://leetcode.com/problems/minimum-time-to-make-rope-colorful/",
+      category: "Pointers",
+      difficulty: "Medium",
+      solution: "minimum-time-to-make-rope-colorful.py",
+      dailyChallenge: new Date("2023-12-27"),
+    },
   ];
 
 export default tableData;
