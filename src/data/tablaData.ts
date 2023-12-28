@@ -2241,6 +2241,14 @@ const tableData: Question[] = [
       solution: "minimum-time-to-make-rope-colorful.py",
       dailyChallenge: new Date("2023-12-27"),
     },
+    {
+      question: "String Compression II",
+      link: "https://leetcode.com/problems/string-compression-ii/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "string-compression-ii.py",
+      dailyChallenge: new Date("2023-12-28"),
+    },
   ];
 
 export default tableData;
