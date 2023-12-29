@@ -2249,6 +2249,14 @@ const tableData: Question[] = [
       solution: "string-compression-ii.py",
       dailyChallenge: new Date("2023-12-28"),
     },
+    {
+      question: "Minimum Difficulty of a Job Schedule",
+      link: "https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/",
+      category: "Dynamic Programming",
+      difficulty: "Hard",
+      solution: "minimum-difficulty-of-a-job-schedule.py",
+      dailyChallenge: new Date("2023-12-29"),
+    },
   ];
 
 export default tableData;
