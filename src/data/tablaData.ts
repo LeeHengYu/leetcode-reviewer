@@ -2257,6 +2257,14 @@ const tableData: Question[] = [
       solution: "minimum-difficulty-of-a-job-schedule.py",
       dailyChallenge: new Date("2023-12-29"),
     },
+    {
+      question: "Redistribute Characters to Make All Strings Equal",
+      link: "https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "redistribute-characters-to-make-all-strings-equal.py",
+      dailyChallenge: new Date("2023-12-30"),
+    },
   ];
 
 export default tableData;
