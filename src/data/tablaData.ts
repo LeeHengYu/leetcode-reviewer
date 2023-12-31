@@ -2265,6 +2265,14 @@ const tableData: Question[] = [
       solution: "redistribute-characters-to-make-all-strings-equal.py",
       dailyChallenge: new Date("2023-12-30"),
     },
+    {
+      question: "Largest Substring Between Two Equal Characters",
+      link: "https://leetcode.com/problems/largest-substring-between-two-equal-characters/",
+      category: "Arrays & Hashing",
+      difficulty: "Easy",
+      solution: "largest-substring-between-two-equal-characters.py",
+      dailyChallenge: new Date("2023-12-31"),
+    },
   ];
 
 export default tableData;
