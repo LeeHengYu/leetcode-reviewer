@@ -23,7 +23,7 @@ const SortSelector = () => {
     <>
       <Menu>
         <MenuButton as={Button} rightIcon={<BsChevronDown />}>
-          Sort by: {by?.toUpperCase() || "NAME"}
+          Sort by: {by?.toUpperCase() || "DATE"}
         </MenuButton>
         <MenuList>
           {mapping.map((type) => (

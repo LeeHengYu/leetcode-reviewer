@@ -33,6 +33,12 @@ const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
         })
     }
 
+    else {
+        sortedData = data.sort((a,b) => {
+            return a.question.localeCompare(b.question);
+        })
+    }
+
     if (reverse) return sortedData.reverse();
     return sortedData; 
 }
