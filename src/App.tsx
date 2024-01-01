@@ -1,4 +1,11 @@
-import { Box, Grid, GridItem, Show, useColorMode } from "@chakra-ui/react";
+import {
+  Box,
+  Grid,
+  GridItem,
+  Show,
+  Text,
+  useColorMode,
+} from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import Sidebar from "./components/Sidebar";
 import TableComponent from "./components/TableComponent";
@@ -21,6 +28,10 @@ function App() {
         <InputRefContexts.Provider value={{ inputRef: inputRef }}>
           <GridItem area="nav" padding={3}>
             <NavBar />
+            <Text fontSize="lg" paddingTop={"2"} paddingLeft={"2"}>
+              Thanks for your visit. We have stopped uploading new DC solutions
+              since 2024.
+            </Text>
           </GridItem>
           <Show above="lg">
             <GridItem area="aside">

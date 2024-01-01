@@ -4,6 +4,9 @@ const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
     const mapping = ["Easy", "Medium", "Hard"];
     let sortedData = data;
 
+    if (!by) 
+        by = "date";
+
     if (by==="category"){
         sortedData = data.sort((a,b) => {
             //sort by category in lexical order
@@ -28,12 +31,6 @@ const dataSorting = (data: Question[], reverse: boolean, by?: string) => {
             }
             return 0;
         })
-    }
-
-    else {
-        sortedData = data.sort((a,b) => {
-            return a.question.toLocaleLowerCase().localeCompare(b.question.toLocaleLowerCase());
-        }); // default sort by question
     }
 
     if (reverse) return sortedData.reverse();
