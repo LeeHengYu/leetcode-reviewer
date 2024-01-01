@@ -26,9 +26,16 @@ function App() {
         alignContent="flex-start"
       >
         <InputRefContexts.Provider value={{ inputRef: inputRef }}>
-          <GridItem area="nav" padding={3}>
+          <GridItem area="nav" padding={2}>
             <NavBar />
-            <Text fontSize="lg" paddingTop={"2"} paddingLeft={"2"}>
+            <Text
+              as="h4"
+              color={"CaptionText"}
+              bg="purple.500"
+              fontSize="lg"
+              paddingY={"1"}
+              align={"center"}
+            >
               Thanks for your visit. We have stopped uploading new DC solutions
               since 2024.
             </Text>
