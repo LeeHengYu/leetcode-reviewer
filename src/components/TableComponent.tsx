@@ -36,6 +36,7 @@ import SortSelector from "./SortSelector";
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [buttonText, setButtonText] = useState("Copy");
 
   const [script, dispatch] = useReducer(scriptReducer, "");
 
@@ -58,6 +59,7 @@ const TableComponent = () => {
     navigator.clipboard.writeText(script).catch((error) => {
       console.error("Error copying text:", error);
     });
+    setButtonText("Copied!");
   };
 
   return (
@@ -126,7 +128,11 @@ const TableComponent = () => {
           <ModalOverlay />
           <ModalContent>
             <ModalHeader>Solution</ModalHeader>
-            <ModalCloseButton />
+            <ModalCloseButton
+              onClick={() => {
+                setButtonText("Copy");
+              }}
+            />
             <ModalBody>
               <Code
                 display="flow"
@@ -139,7 +145,7 @@ const TableComponent = () => {
                 <ScriptLoader selectedSolution={selectedSolution} />
               </Code>
               <Button onClick={handleCopyClick} paddingX={4} marginBottom={2}>
-                Copy
+                {buttonText}
               </Button>
             </ModalBody>
           </ModalContent>
