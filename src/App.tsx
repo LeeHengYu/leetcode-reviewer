@@ -32,9 +32,10 @@ function App() {
               as="h4"
               color={"CaptionText"}
               bg="purple.500"
-              fontSize="lg"
+              fontSize="xl"
               paddingY={"1"}
               align={"center"}
+              fontFamily={"serif"}
             >
               Thanks for your visit. We have stopped uploading new DC solutions
               since 2024.
