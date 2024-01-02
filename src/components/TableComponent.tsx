@@ -125,20 +125,21 @@ const TableComponent = () => {
         <Modal isOpen={isModalOpen} onClose={handleCloseModal} size="3xl">
           <ModalOverlay />
           <ModalContent>
-            <ModalHeader>Solution: {selectedSolution}</ModalHeader>
+            <ModalHeader>Solution</ModalHeader>
             <ModalCloseButton />
             <ModalBody>
               <Code
-                display="block"
+                display="flow"
                 whiteSpace="pre"
-                maxHeight="70vh"
+                maxHeight="60%"
                 overflowY="scroll"
                 mb={4}
+                colorScheme="purple"
               >
                 <ScriptLoader selectedSolution={selectedSolution} />
               </Code>
-              <Button onClick={handleCopyClick} marginBottom={2}>
-                Copy Code
+              <Button onClick={handleCopyClick} paddingX={4} marginBottom={2}>
+                Copy
               </Button>
             </ModalBody>
           </ModalContent>
