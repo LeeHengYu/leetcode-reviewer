@@ -53,6 +53,7 @@ const TableComponent = () => {
   const handleCloseModal = () => {
     setSelectedSolution("");
     setIsModalOpen(false);
+    setButtonText("Copy");
   };
 
   const handleCopyClick = () => {
@@ -128,11 +129,7 @@ const TableComponent = () => {
           <ModalOverlay />
           <ModalContent>
             <ModalHeader>Solution</ModalHeader>
-            <ModalCloseButton
-              onClick={() => {
-                setButtonText("Copy");
-              }}
-            />
+            <ModalCloseButton/>
             <ModalBody>
               <Code
                 display="flow"
