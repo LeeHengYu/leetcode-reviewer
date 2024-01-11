@@ -1,4 +1,4 @@
-import { Box, Heading, Icon, Image, Link, VStack, createIcon } from "@chakra-ui/react";
+import { Box, Heading, Icon, Link, VStack, createIcon } from "@chakra-ui/react";
 import { IconType } from "react-icons";
 import {
   AiOutlineInstagram,
