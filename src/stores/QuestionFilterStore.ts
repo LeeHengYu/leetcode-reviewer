@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-export type Difficulty = 'Easy' | 'Medium' | 'Hard';
+export type Difficulty = 'Easy' | 'Medium' | 'Hard' | 'All';
 
 export interface Filters {
     text: string;
@@ -20,8 +20,8 @@ interface QuestionFilterStore {
 const useQuestionFilterStore = create<QuestionFilterStore>((set) => ({
     filters: {
         text: "",
-        category: "Arrays & Hashing",
-        difficulty: "Easy",
+        category: "",
+        difficulty: "All",
         onlyDC: false
     }, // default values
 

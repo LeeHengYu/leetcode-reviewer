@@ -13,7 +13,7 @@ const Reseter = () => {
 
   const onReset = () => {
     setCategory("");
-    setDifficulty("");
+    setDifficulty("All");
     setSearchText("");
     setBy("");
     if (ref.current) ref.current.value = "";

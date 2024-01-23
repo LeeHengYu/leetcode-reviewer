@@ -6,7 +6,7 @@ const DataQuery = (data: Question[], query: Filters) => {
     if (query.category) {
         filteredData = filteredData.filter((question) => question.category === query.category);
     }
-    if (query.difficulty) {
+    if (query.difficulty !== "All") {
         filteredData = filteredData.filter((question) => question.difficulty === query.difficulty);
     }
     if (query.text) {
