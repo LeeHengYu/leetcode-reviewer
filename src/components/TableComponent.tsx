@@ -19,6 +19,7 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { useReducer, useState } from "react";
+import ReactPaginate from 'react-paginate';
 import ScriptContext from "../contexts/scriptContexts";
 import tableData from "../data/tablaData";
 import DataQuery from "../hook/dataQuery";
@@ -33,6 +34,8 @@ import Reseter from "./Reseter";
 import ScriptLoader from "./ScriptLoader";
 import SortSelector from "./SortSelector";
 
+import '../styles.css';
+
 const TableComponent = () => {
   const [selectedSolution, setSelectedSolution] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -44,6 +47,8 @@ const TableComponent = () => {
 
   const by = useQuestionSortingStore((s) => s.sortingCriteria.by);
   const [reversed, setReversed] = useState(false);
+
+  const questions_data = dataSorting(DataQuery(tableData, filters), reversed, by);
 
   const handleSolutionClick = (solution: string) => {
     setSelectedSolution(solution);
@@ -62,6 +67,20 @@ const TableComponent = () => {
     });
     setButtonText("Copied!");
   };
+
+
+  // pagination setting
+  var itemsPerPage = 10;
+  const [itemOffset, setItemOffset] = useState(0);
+  const endOffset = itemOffset + itemsPerPage;
+  const currentQuestions = questions_data.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(questions_data.length / itemsPerPage);
+
+  const handlePageClick = (event: any) => {
+    const newOffset = (event.selected * itemsPerPage) % questions_data.length;
+    setItemOffset(newOffset);
+  }
+
 
   return (
     <Box>
@@ -87,7 +106,8 @@ const TableComponent = () => {
           {tableData.filter((q) => q.difficulty === "Hard").length})
         </Text>
       </HStack>
-      <Table variant="striped" size="lg" fontFamily="mono">
+      <Table variant="striped" size="lg" fontFamily="mono" marginBottom={2}> 
+      {/* can refactor into a new components */}
         <Thead>
           <Tr>
             <Th>Question</Th>
@@ -98,7 +118,7 @@ const TableComponent = () => {
           </Tr>
         </Thead>
         <Tbody whiteSpace="nowrap">
-          {dataSorting(DataQuery(tableData, filters), reversed, by)?.map(
+          {currentQuestions.map(
             (item, index) => (
               <Tr key={index}>
                 <Td color="blue.300" minWidth="400px">
@@ -124,6 +144,28 @@ const TableComponent = () => {
           )}
         </Tbody>
       </Table>
+      <div className="pagination">
+        <ReactPaginate
+          nextLabel="NEXT >"
+          onPageChange={handlePageClick}
+          pageRangeDisplayed={3}
+          marginPagesDisplayed={2}
+          pageCount={pageCount}
+          previousLabel="< PREV"
+          pageClassName="page-item"
+          pageLinkClassName="page-link"
+          previousClassName="page-item"
+          previousLinkClassName="page-link"
+          nextClassName="page-item"
+          nextLinkClassName="page-link"
+          breakLabel="..."
+          breakClassName="page-item"
+          breakLinkClassName="page-link"
+          containerClassName="pagination"
+          activeClassName="active"
+          renderOnZeroPageCount={null}
+        />
+      </div>
       <ScriptContext.Provider value={{ script, dispatch }}>
         <Modal isOpen={isModalOpen} onClose={handleCloseModal} size="3xl">
           <ModalOverlay />
